@@ -6,17 +6,19 @@
 body {
   margin: 0;
   font-family: 'lato';
+  display: flex;
 }
 
-header,
+.content {
+  width: 100%;
+}
+
+.content > :first-child,
 .chapter > :first-child,
 .section > * {
   margin: 1em auto;
-  max-width: 800px;
-}
-
-.section {
   padding: 1em;
+  max-width: 800px;
 }
 
 .section:nth-child(even) {
@@ -24,9 +26,9 @@ header,
 }
 
 .side-nav {
-  height: 100%;
+  height: 100vh;
   width: auto;
-  position: fixed;
+  position: sticky;
   z-index: 1;
   top: 0;
   left: 0;
