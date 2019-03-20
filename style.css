@@ -21,6 +21,10 @@ body {
   max-width: 800px;
 }
 
+.section {
+  padding: 1em 0;
+}
+
 .section:nth-child(even) {
   background-color: #edf0f4;
 }
