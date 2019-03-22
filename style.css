@@ -1,74 +1,80 @@
 @import 'https://fonts.googleapis.com/css?family=Lato';
 
+/* Reset  */
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main style */
+body {
+  display: flex;
+  font-family: 'lato';
+  background-color: #fafafa;
+  color: #1a1a1a;
+}
+
+a {
   text-decoration: none;
   list-style: none;
 }
 
-body {
-  margin: 0;
-  font-family: 'lato';
-  display: flex;
+h1,
+h2 {
+  margin: 1em 0;
 }
 
+/* Utility classes */
 .content {
   width: 100%;
 }
 
+.wrapper {
+  margin: auto;
+  max-width: 960px;
+}
+
+.ratio-4-3 {
+  width: 100%;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+/* Content */
+
 .content > :first-child,
 .chapter > :first-child,
 .section > * {
-  max-width: 800px;
-  margin: auto;
-  padding: 0.6em;
+  max-width: 960px;
+  margin: 1em auto;
 }
 
 .section {
-  padding: 1.2em 0;
+  padding: 1em 0;
 }
 
 .section:nth-child(even) {
   background-color: #edf0f4;
 }
 
-.subject {
-  margin: 1em;
-  padding: 1em;
-  font-size: 1.4em;
-  color: #1a1a1a;
-  transition: 150ms ease-in;
-}
-
-#met-34 {
-  background-color: #fff394;
-}
-
-#met-34:hover {
-  background-color: #ffe16b;
-}
-
-#spe-34 {
-  background-color: #ff8c82;
-}
-
-#spe-34:hover {
-  background-color: #ed5353;
-}
+/* Side navbar */
 
 .side-nav {
-  height: 100vh;
-  width: auto;
   position: sticky;
-  z-index: 1;
   top: 0;
   left: 0;
+  z-index: 1;
+  width: auto;
+  height: 100vh;
   background-color: #1a1a1a;
 }
 
 .side-nav a {
-  padding: 0 0.8em;
-  color: #818181;
   display: block;
+  margin: auto;
+  padding: 0 0.8em;
+  color: #555761;
   transition: color 150ms ease-in;
   transition: background-color 150ms ease-in;
 }
@@ -88,11 +94,7 @@ body {
   background-color: #cd9ef7;
 }
 
-.ratio-4-3 {
-  width: 100%;
-  padding-bottom: 75%;
-  position: relative;
-}
+/* Desmos */
 
 .desmos {
   position: absolute;
@@ -100,11 +102,64 @@ body {
   height: 100%;
 }
 
+/* Subject */
+
+.subject {
+  display: block;
+  margin: 0.4em 0;
+  padding: 1em;
+  font-size: 1.4em;
+  color: #1a1a1a;
+  transition: 150ms ease-in;
+}
+
+/* Specific styles */
+
+#home-page {
+  background: #1a1a1a url('https://source.unsplash.com/featured/?notebook') no-repeat;
+  opacity: 0.96;
+  background-size: cover;
+  height: 100vh;
+}
+
+#home-page div {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36em;
+  padding: 2em;
+  background-color: #fafafa;
+}
+
+#home-page h1 {
+  margin: 0;
+}
+
+#home-page p {
+  margin-bottom: 1em;
+}
+
+#met-34 {
+  background-color: #fff394;
+}
+
+#met-34:hover {
+  background-color: #ffe16b;
+}
+
+#spe-34 {
+  background-color: #ff8c82;
+}
+
+#spe-34:hover {
+  background-color: #ed5353;
+}
+
+/* Responsive design */
+
 @media (max-width: 640px) {
   .side-nav {
     display: none;
-  }
-  .wrapper {
-    transform: translate(0, 0);
   }
 }

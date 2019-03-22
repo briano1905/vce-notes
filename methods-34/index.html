@@ -29,18 +29,23 @@
 
         <div class="section">
           <h3>transformation</h3>
-          <p>dilation by a scale factor \(k\) from the x-axis</p>
-          <p>$$kf(x)\qquad\qquad\begin{bmatrix}1&0\\0&k\end{bmatrix}$$</p>
+          <p>translation of \(h\) units in the direction of the x-axis</p>
+          <p>$$f(x-h)$$</p>
+          <p>translation of \(k\) units in the direction of the y-axis</p>
+          <p>$$f(x)+k$$</p>
           <p>dilation by a scale factor \(a\) from the y-axis</p>
           <p>$$f(\frac{x}{a})\qquad\qquad\begin{bmatrix}a&0\\0&1\end{bmatrix}$$</p>
+          <p>dilation by a scale factor \(b\) from the x-axis</p>
+          <p>$$kf(x)\qquad\qquad\begin{bmatrix}1&0\\0&b\end{bmatrix}$$</p>
           <p>reflection in the x-axis</p>
           <p>$$-f(x)\qquad\qquad\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$</p>
           <p>reflection in the y-axis</p>
           <p>$$f(-x)\qquad\qquad\begin{bmatrix}-1&0\\0&1\end{bmatrix}$$</p>
-          <p>translation of \(k\) units in the direction of the y-axis</p>
-          <p>$$f(x)+k$$</p>
-          <p>translation of \(h\) units in the direction of the y-axis</p>
-          <p>$$f(x-h)$$</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="f(x)=x^2$y=bf(\frac{x-h}{a})+k$h=-2$k=3$a=2$b=-1"></div>
+            </div>
+          </div>
         </div>
 
         <div class="section">
@@ -116,7 +121,7 @@
           <p>the graph of a function with rule \(y=x^{-2}\) or \(y=\frac{1}{x^2}\) is a truncus</p>
           <div>
             <div class="ratio-4-3">
-              <div class="desmos" tex="y=x^2|y=x^3|y=x^4|y=\sqrt{x}|y=\frac{1}{x}|y=\frac{1}{x^2}"></div>
+              <div class="desmos" tex="y=x^2$y=x^3$y=x^4$y=\sqrt{x}$y=\frac{1}{x}$y=\frac{1}{x^2}"></div>
             </div>
           </div>
         </div>
@@ -132,7 +137,7 @@
           <p>$$y=a^x,a\in R\setminus\{1\}$$</p>
           <div>
             <div class="ratio-4-3">
-              <div class="desmos" tex="y=2^x|y=10^x"></div>
+              <div class="desmos" tex="y=2^x$y=10^x"></div>
             </div>
           </div>
           <p>exponential graphs of the form above have the following properties in common:</p>
@@ -148,7 +153,7 @@
           <p>$$y=\log_ax,a\in R^+\setminus\{1\}$$</p>
           <div>
             <div class="ratio-4-3">
-              <div class="desmos" tex="y=\log_2x|y=\log_{10}x"></div>
+              <div class="desmos" tex="y=\log_2x$y=\log_{10}x"></div>
             </div>
           </div>
           <p>logarithmic graphs of the form above have the following properties in common:</p>
@@ -162,7 +167,7 @@
           <h3>sine and cosine graphs</h3>
           <div>
             <div class="ratio-4-3">
-              <div class="desmos" tex="y=\sin x|y=\cos x"></div>
+              <div class="desmos" tex="y=\sin x$y=\cos x"></div>
             </div>
           </div>
           <p>the domain for both the sine function and the cosine function is \(R\)</p>
@@ -192,18 +197,18 @@
           <p>the domain of the inverse will therefore be the range of the original and vice versa. to draw \(f^{-1}(x)\), we reflect the graph of \(f(x)\) in the line \(y=x\)</p>
           <div>
             <div class="ratio-4-3">
-              <div class="desmos" tex="y=e^x|y=x|y=\log_ex"></div>
+              <div class="desmos" tex="y=e^x$y=\log_ex$y=x" options="xAxisStep:Math.PI,yAxisStep:2"></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="chapter">
-        <h1>🚧 work in progress 🚧</h1>
-      </div>
-
       <div id="chapter-2" class="chapter">
         <h2>chapter 2 | differentiation</h2>
+
+        <div class="section">
+          <h1>🚧 work in progress 🚧</h1>
+        </div>
       </div>
 
       <div id="chapter-3" class="chapter">
@@ -219,14 +224,6 @@
       </div>
     </div>
 
-    <!-- Desmos graphing api -->
-    <script>
-      let graphs = document.querySelectorAll('.desmos');
-      graphs.forEach(g => {
-        let texs = g.getAttribute('tex').split('|');
-        let calculator = Desmos.GraphingCalculator(g);
-        texs.forEach(tex => calculator.setExpression({ latex: tex }));
-      });
-    </script>
+    <script src="../main.js"></script>
   </body>
 </html>

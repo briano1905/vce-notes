@@ -33,6 +33,11 @@
         <div class="section">
           <h3>addition of ordinates</h3>
           <p>graphs of rational of low degree can be sketched by a combination of addition of ordinates and calculus to find the coordinates of any stationary points</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="a=\sin x$b=\cos{2x}$y=a+b"></div>
+            </div>
+          </div>
         </div>
 
         <div class="section">
@@ -40,6 +45,11 @@
           <p>graphs of simple quotient functions can be sketched by a combination of checking for zeros in the numerator and denominator in order to find intercepts and asymptotes and the use of calculus to find the coordinates of any stationary points. in particular, the graph of</p>
           <p>$$y=\frac{1}{ax^2+bx+c}$$</p>
           <p>can be sketched by first sketching the parabola given by \(y=ax^2+bx+c\) and then using the reciprocals of the ordinates. note that if the parabola has x-axis intercepts, the reciprocal curve will correspondingly have vertical asymptotes through these points</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="a=\sin x$y=\frac{1}{a}"></div>
+            </div>
+          </div>
         </div>
 
         <div class="section">
@@ -47,6 +57,11 @@
           <p>the absolute value function of \(x\) is written as \(\lvert x \rvert\) and is defined as</p>
           <p>$$\lvert x\rvert=\begin{cases}x&,x\geq 0\\-x &,x\lt0\end{cases}$$</p>
           <p>the graph of the absolute value function, given by \(y=\lvert x\rvert\), is therefore equivalent to the graphs of \(y=x\) for \(x\geq 0\) and \(y=-x\) for \(x\lt 0\) sketched on the same set of axes</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="y=\left|x-h\right|+k$h=3$k=2"></div>
+            </div>
+          </div>
         </div>
 
         <div class="section">
@@ -54,6 +69,11 @@
           <p>$$\csc x=\frac{1}{\sin x}$$</p>
           <p>$$\sec x=\frac{1}{\cos x}$$</p>
           <p>$$\cot x=\frac{1}{\tan x}$$</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="y=\csc x$y=\sec x$y=\cot x"></div>
+            </div>
+          </div>
           <p>and they satisfy the identities:</p>
           <p>$$\csc^2 x = 1 + \cot^2 x$$</p>
           <p>$$\sec^2 x = 1 + \tan^2 x$$</p>
@@ -76,9 +96,17 @@
         <div class="section">
           <h3>inverse circular functions</h3>
           <p>the inverse circular functions \(\sin^{-1}x\), \(\cos^{-1}x\) and \(\tan^{-1}x\) also known by their alternative names (\(\arcsin\), \(\arccos\) and \(\arctan\)) are defined by:</p>
-          <p>$$\sin^{-1}:[-1,1]\to R,\sin^{-1}x=y,-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}$$</p>
-          <p>$$\cos^{-1}:[-1,1]\to R,\cos^{-1}x=y, 0\leq y\leq\pi$$</p>
-          <p>$$\tan^{-1}:R\to R,\tan^{-1}x=y,-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}$$</p>
+          <p>$$\sin^{-1}:[-1,1]\to R,\sin^{-1}x=y$$</p>
+          <p>range: \(-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}\)</p>
+          <p>$$\cos^{-1}:[-1,1]\to R,\cos^{-1}x=y$$</p>
+          <p>range: \(0\leq y\leq\pi\)</p>
+          <p>$$\tan^{-1}:R\to R,\tan^{-1}x=y$$</p>
+          <p>range: \(-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}\)</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="y=\arcsin x$y=\arccos x$y=\arctan x"></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -124,7 +152,7 @@
         <div class="section">
           <h3>complex conjugate</h3>
           <p>the complex conjugate of \(z = x + yi\), written as \(\bar{z}\), is given by \(\bar{z} = x - yi\), and then:</p>
-          <p>$$z+\bar{z}=2x=2Re(z)</p>
+          <p>$$z+\bar{z}=2x=2Re(z)$$</p>
           <p>a real number</p>
           <p>$$z-\bar{z}=2yi=2Im(z)i$$</p>
           <p>an imaginary number</p>
@@ -180,7 +208,7 @@
         </div>
 
         <div class="section">
-          <h3>complex relations</h3>
+          <h3>complex locus</h3>
           <p>sets of points in the complex plane such as lines, rays, circles, ellipses and other curves can be described by conditions set on the complex number \(z\), including:</p>
           <p>$$\lvert z-a\rvert=c$$</p>
           <p>where \(a\) is complex and \(c\) is real, describes a circle centre \(a\) radius \(c\)</p>
@@ -301,12 +329,23 @@
         </div>
       </div>
 
-      <div class="chapter">
-        <h1>🚧 work in progress 🚧</h1>
-      </div>
-
       <div id="chapter-5" class="chapter">
         <h2>chapter 5 | differential equations and kinematics</h2>
+
+        <div class="section">
+          <h3>differential equations</h3>
+          <p>a <em>differential equation</em> is an equation that contains at least one derivative. for example</p>
+          <p>$$\frac{dy}{dx}=2\sin(x)$$</p>
+          <p>$$(\frac{dy}{dx})^2+y^2=x^2$$</p>
+          <p>$$\frac{d^2y}{dx^2}-\frac{dy}{dx}-2y=0$$</p>
+          <p>are all differential equations</p>
+          <p>the <em>order</em> of a differential equation is the order of its highest derivative; the first two equations above have order 1, the third has order 2</p>
+          <p>the <em>degree</em> of a differential equation is the greatest power of the highest derivative in the equation; the first and third equation above have degree 1, the second has degree 2</p>
+        </div>
+
+        <div class="section">
+          <h1>🚧 work in progress 🚧</h1>
+        </div>
       </div>
 
       <div id="chapter-6" class="chapter">
@@ -321,5 +360,7 @@
         <h2>chapter 8 | probability and statistics</h2>
       </div>
     </div>
+
+    <script src="../main.js"></script>
   </body>
 </html>
