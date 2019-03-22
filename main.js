@@ -8,5 +8,5 @@ graphs.forEach(g => {
   calculator.colors.PURPLE = '#a56de2';
   calculator.colors.ORANGE = '#f37329';
   calculator.colors.BLACK = '#333333';
-  texs.forEach(tex => calculator.setExpression({ latex: tex, sliderBounds: { min: -10, max: 10, step: 1 } }));
+  texs.forEach(tex => calculator.setExpression({ latex: tex })); //, sliderBounds: { min: -10, max: 10, step: 1 }
 });
