@@ -15,14 +15,6 @@ body {
   font-family: 'lato';
   background-color: #fafafa;
 }
-h1,
-h2 {
-  padding: 12px 0;
-}
-h3,
-p {
-  padding: 2px 0;
-}
 a {
   color: #1a1a1a;
 }
@@ -117,8 +109,7 @@ a {
 .section > * {
   max-width: 960px;
   margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding: 0.2em 0.5em;
 }
 .section {
   padding: 2em 0;
