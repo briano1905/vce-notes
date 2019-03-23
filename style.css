@@ -46,7 +46,7 @@ a {
   background-color: #fafafa;
 }
 #home-page h1 {
-  margin: 0;
+  padding: 0;
 }
 #home-page p {
   margin-bottom: 1em;
@@ -159,7 +159,7 @@ a {
 }
 
 /* Responsive design */
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   #side-nav {
     display: none;
   }

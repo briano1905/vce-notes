@@ -30,18 +30,16 @@
 
         <div class="section">
           <h3>transformation</h3>
-          <p>translation of \(h\) units in the direction of the x-axis</p>
-          <p>$$f(x-h)$$</p>
-          <p>translation of \(k\) units in the direction of the y-axis</p>
-          <p>$$f(x)+k$$</p>
-          <p>dilation by a scale factor \(a\) from the y-axis</p>
-          <p>$$f(\frac{x}{a})\qquad\qquad\begin{bmatrix}a&0\\0&1\end{bmatrix}$$</p>
-          <p>dilation by a scale factor \(b\) from the x-axis</p>
-          <p>$$kf(x)\qquad\qquad\begin{bmatrix}1&0\\0&b\end{bmatrix}$$</p>
-          <p>reflection in the x-axis</p>
-          <p>$$-f(x)\qquad\qquad\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$</p>
-          <p>reflection in the y-axis</p>
-          <p>$$f(-x)\qquad\qquad\begin{bmatrix}-1&0\\0&1\end{bmatrix}$$</p>
+          <p>dilation of factor \(a\) from the y-axis</p>
+          <p>dilation of factor \(b\) from the x-axis</p>
+          <p>translation of \(h\) units in the x-axis</p>
+          <p>translation of \(k\) units in the y-axis</p>
+          <p>$$\begin{bmatrix}x'\\y'\end{bmatrix}=\begin{bmatrix}a&0\\0&b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}$$</p>
+          <p>$$x'=ax+h\qquad y'=by+k$$</p>
+          <p>$$x=\frac{x'-h}{a}\qquad y=\frac{y'-k}{b}$$</p>
+          <p>$$y=f(x)$$</p>
+          <p>$$\frac{y'-k}{b}=f(\frac{x-h}{a})$$</p>
+          <p>$$y=bf(\frac{x-h}{a})+k$$</p>
           <div>
             <div class="ratio-4-3">
               <div class="desmos" tex="f(x)=x^2$y=bf(\frac{x-h}{a})+k$h=-2$k=3$a=2$b=-1"></div>
