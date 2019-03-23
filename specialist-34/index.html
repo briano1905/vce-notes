@@ -12,9 +12,9 @@
     <title>specialist 3/4</title>
   </head>
   <body>
-    <div class="side-nav">
-      <a id="home" href="../index.html"><i class="fas fa-book fa-lg"></i></a>
-      <a href="#"><i class="fas fa-arrow-up fa-lg"></i></a>
+    <div id="side-nav">
+      <a id="home" class="fas fa-book" href="../index.html"></a>
+      <a class="fas fa-arrow-up" href="#"></a>
       <a href="#chapter-1"><h1>1</h1></a>
       <a href="#chapter-2"><h1>2</h1></a>
       <a href="#chapter-3"><h1>3</h1></a>
@@ -25,7 +25,7 @@
       <a href="#chapter-8"><h1>8</h1></a>
     </div>
 
-    <div class="content">
+    <div id="content">
       <h1>specialist 3/4</h1>
 
       <div id="chapter-1" class="chapter">
@@ -96,13 +96,10 @@
 
         <div class="section">
           <h3>inverse circular functions</h3>
-          <p>the inverse circular functions \(\sin^{-1}x\), \(\cos^{-1}x\) and \(\tan^{-1}x\) also known by their alternative names (\(\arcsin\), \(\arccos\) and \(\arctan\)) are defined by:</p>
-          <p>$$\sin^{-1}:[-1,1]\to R,\sin^{-1}x=y$$</p>
-          <p>range: \(-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}\)</p>
-          <p>$$\cos^{-1}:[-1,1]\to R,\cos^{-1}x=y$$</p>
-          <p>range: \(0\leq y\leq\pi\)</p>
-          <p>$$\tan^{-1}:R\to R,\tan^{-1}x=y$$</p>
-          <p>range: \(-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}\)</p>
+          <p>the inverse circular functions \(\sin^{-1}(x)\), \(\cos^{-1}(x)\) and \(\tan^{-1}(x)\) also known by their alternative names (\(\arcsin\), \(\arccos\) and \(\arctan\)) are defined by:</p>
+          <p>$$y=\sin^{-1}(x)\quad,x\in[-1,1]\quad,y\in[-\frac{\pi}{2},\frac{\pi}{2}]$$</p>
+          <p>$$y=\cos^{-1}(x)\quad,x\in[-1,1]\quad,y\in[0,\pi]$$</p>
+          <p>$$y=\tan^{-1}(x)\quad,x\in R\quad,y\in(-\frac{\pi}{2},\frac{\pi}{2})$$</p>
           <div>
             <div class="ratio-4-3">
               <div class="desmos" tex="y=\arcsin x$y=\arccos x$y=\arctan x"></div>
@@ -152,13 +149,10 @@
 
         <div class="section">
           <h3>complex conjugate</h3>
-          <p>the complex conjugate of \(z = x + yi\), written as \(\bar{z}\), is given by \(\bar{z} = x - yi\), and then:</p>
+          <p>the complex conjugate of \(z = x + yi\), written as \(\bar{z}\), is given by \(\bar{z} = x - yi\), and:</p>
           <p>$$z+\bar{z}=2x=2Re(z)$$</p>
-          <p>a real number</p>
           <p>$$z-\bar{z}=2yi=2Im(z)i$$</p>
-          <p>an imaginary number</p>
           <p>$$z\bar{z}=(x+yi)(x-yi)=x^2+y^2$$</p>
-          <p>a real number</p>
         </div>
 
         <div class="section">
@@ -217,6 +211,11 @@
           <p>where \(a\) and \(b\) are complex, describes the perpendicular bisector of the line through the points \(a\) and \(b\)</p>
           <p>$$Arg(z)=\theta,-\pi\lt\theta\leq\pi$$</p>
           <p>is a ray (half-line) at an angle of \(\theta\) with the positive direction of the \(Re(z)\) axis (note that \((0,0)\) is <strong>not</strong> included since \(Arg(z)\) is not defined); \(Arg(z-a)=\theta\), where \(a=a_1+a_2i\) and \(-\pi\lt\theta\leq\pi\), is a translation of the ray by \(a_1\) units in the horizontal direction and \(a_2\) units in the vertical direction</p>
+          <div>
+            <div class="ratio-4-3">
+              <div class="desmos" tex="z_1=(x_1,y_1)$z_2=(x_2,y_2)$\sqrt{(x-x_1)^2+(y-y_1)^2}=4$\sqrt{(x-x_1)^2+(y-y_1)^2}=\sqrt{(x-x_2)^2+(y-y_2)^2}$x_1=3$y_1=2$x_2=-1$y_2=1"></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -238,12 +237,12 @@
           <p>then the graph is <em>concave up</em></p>
           <p>$$\text{if }\frac{d^2y}{dx^2}\lt 0$$</p>
           <p>then the graph is <em>concave down</em></p>
-          <p>$$\text{if }\frac{dy}{dx}=0\text{ and }\frac{d^2y}{dx^2}\lt 0\text{ when }x=a$$</p>
-          <p>then there is a maximum stationary point at at \(x=a\)</p>
-          <p>$$\text{if }\frac{dy}{dx}=0\text{ and }\frac{d^2y}{dx^2}\gt 0\text{ when }x=a$$</p>
-          <p>then there is a minimum stationary point at \(x=a\)</p>
-          <p>$$\text{if }\frac{d^2y}{dx^2}=0\text{ and }\frac{d^2y}{dx^2}\text{ changes sign}\text{ when }x=a$$</p>
-          <p>then there is a point of inflection at \(x=a\)</p>
+          <p>$$\text{if }\frac{dy}{dx}=0\text{ and }\frac{d^2y}{dx^2}\lt 0$$</p>
+          <p>then it is a maximum stationary point</p>
+          <p>$$\text{if }\frac{dy}{dx}=0\text{ and }\frac{d^2y}{dx^2}\gt 0$$</p>
+          <p>then it is a minimum stationary point</p>
+          <p>$$\text{if }\frac{d^2y}{dx^2}=0\text{ and }\frac{d^2y}{dx^2}\text{ changes sign}$$</p>
+          <p>then it is a point of inflection</p>
         </div>
 
         <div class="section">

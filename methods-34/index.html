@@ -12,9 +12,9 @@
     <title>methods 3/4</title>
   </head>
   <body>
-    <div class="side-nav">
-      <a id="home" href="../index.html"><i class="fas fa-book fa-lg"></i></a>
-      <a href="#"><i class="fas fa-arrow-up fa-lg"></i></a>
+    <div id="side-nav">
+      <a id="home" class="fas fa-book" href="../index.html"></a>
+      <a class="fas fa-arrow-up" href="#"></a>
       <a href="#chapter-1"><h1>1</h1></a>
       <a href="#chapter-2"><h1>2</h1></a>
       <a href="#chapter-3"><h1>3</h1></a>
@@ -22,7 +22,7 @@
       <a href="#chapter-5"><h1>5</h1></a>
     </div>
 
-    <div class="content">
+    <div id="content">
       <h1>methods 3/4</h1>
 
       <div id="chapter-1" class="chapter">
@@ -88,82 +88,60 @@
 
         <div class="section">
           <h3>symmetry properties of the circular functions</h3>
-          <table>
-            <tr>
-              <th>\(\sin(\pi-\theta)=\sin(\theta)\)</th>
-              <th>\(\sin(\pi+\theta)=-\sin(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\cos(\pi-\theta)=-\cos(\theta)\)</th>
-              <th>\(\cos(\pi+\theta)=-\cos(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\tan(\pi-\theta)=-\tan(\theta)\)</th>
-              <th>\(\tan(\pi+\theta)=\tan(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(2\pi-\theta)=-\sin(\theta)\)</th>
-              <th>\(\sin(-\theta)=-\sin(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\cos(2\pi-\theta)=\cos(\theta)\)</th>
-              <th>\(\cos(-\theta)=\cos(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\tan(2\pi-\theta)=-\tan(\theta)\)</th>
-              <th>\(\tan(-\theta)=-\tan(\theta)\)</th>
-            </tr>
-          </table>
+          <div>
+            <div class="grid-container grid-template-columns-2">
+              <p>\(\sin(\pi-\theta)=\sin(\theta)\)</p>
+              <p>\(\sin(\pi+\theta)=-\sin(\theta)\)</p>
+              <p>\(\cos(\pi-\theta)=-\cos(\theta)\)</p>
+              <p>\(\cos(\pi+\theta)=-\cos(\theta)\)</p>
+              <p>\(\tan(\pi-\theta)=-\tan(\theta)\)</p>
+              <p>\(\tan(\pi+\theta)=\tan(\theta)\)</p>
+              <p>\(\sin(2\pi-\theta)=-\sin(\theta)\)</p>
+              <p>\(\sin(-\theta)=-\sin(\theta)\)</p>
+              <p>\(\cos(2\pi-\theta)=\cos(\theta)\)</p>
+              <p>\(\cos(-\theta)=\cos(\theta)\)</p>
+              <p>\(\tan(2\pi-\theta)=-\tan(\theta)\)</p>
+              <p>\(\tan(-\theta)=-\tan(\theta)\)</p>
+            </div>
+          </div>
         </div>
 
         <div class="section">
           <h3>complementary angles of the circular functions</h3>
-          <table>
-            <tr>
-              <th>\(\sin(\frac{\pi}{2}-\theta)=\cos(\theta)\)</th>
-              <th>\(\sin(\frac{\pi}{2}+\theta)=\cos(\theta)\)</th>
-            </tr>
-            <tr>
-              <th>\(\cos(\frac{\pi}{2}-\theta)=\sin(\theta)\)</th>
-              <th>\(\cos(\frac{\pi}{2}+\theta)=-\sin(\theta)\)</th>
-            </tr>
-          </table>
+          <div>
+            <div class="grid-container grid-template-columns-2">
+              <p>\(\sin(\frac{\pi}{2}-\theta)=\cos(\theta)\)</p>
+              <p>\(\sin(\frac{\pi}{2}+\theta)=\cos(\theta)\)</p>
+              <p>\(\cos(\frac{\pi}{2}-\theta)=\sin(\theta)\)</p>
+              <p>\(\cos(\frac{\pi}{2}+\theta)=-\sin(\theta)\)</p>
+            </div>
+          </div>
         </div>
 
         <div class="section">
           <h3>exact values of the circular functions</h3>
-          <table>
-            <tr>
-              <th>\(\sin(0)=0\)</th>
-              <th>\(\cos(0)=1\)</th>
-              <th>\(\tan(0)=0\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(\frac{\pi}{6})=\frac{1}{2}\)</th>
-              <th>\(\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}\)</th>
-              <th>\(\tan(\frac{\pi}{6})=\frac{1}{\sqrt{3}}\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(\frac{\pi}{4})=\frac{1}{\sqrt{2}}\)</th>
-              <th>\(\cos(\frac{\pi}{4})=\frac{1}{\sqrt{2}}\)</th>
-              <th>\(\tan(\frac{\pi}{4})=1\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(\frac{\pi}{3})=\frac{\sqrt{3}}{2}\)</th>
-              <th>\(\cos(\frac{\pi}{3})=\frac{1}{2}\)</th>
-              <th>\(\tan(\frac{\pi}{3})=\sqrt{3}\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(\frac{\pi}{2})=1\)</th>
-              <th>\(\cos(\frac{\pi}{2})=0\)</th>
-              <th>\(\tan(\frac{\pi}{3})=\text{undefine}\)</th>
-            </tr>
-            <tr>
-              <th>\(\sin(\pi)=0\)</th>
-              <th>\(\cos(\pi)=-1\)</th>
-              <th>\(\tan(\pi)=0\)</th>
-            </tr>
-          </table>
+          <div>
+            <div class="grid-container grid-template-columns-3">
+              <p>\(\sin(0)=0\)</p>
+              <p>\(\cos(0)=1\)</p>
+              <p>\(\tan(0)=0\)</p>
+              <p>\(\sin(\frac{\pi}{6})=\frac{1}{2}\)</p>
+              <p>\(\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}\)</p>
+              <p>\(\tan(\frac{\pi}{6})=\frac{1}{\sqrt{3}}\)</p>
+              <p>\(\sin(\frac{\pi}{4})=\frac{1}{\sqrt{2}}\)</p>
+              <p>\(\cos(\frac{\pi}{4})=\frac{1}{\sqrt{2}}\)</p>
+              <p>\(\tan(\frac{\pi}{4})=1\)</p>
+              <p>\(\sin(\frac{\pi}{3})=\frac{\sqrt{3}}{2}\)</p>
+              <p>\(\cos(\frac{\pi}{3})=\frac{1}{2}\)</p>
+              <p>\(\tan(\frac{\pi}{3})=\sqrt{3}\)</p>
+              <p>\(\sin(\frac{\pi}{2})=1\)</p>
+              <p>\(\cos(\frac{\pi}{2})=0\)</p>
+              <p>\(\tan(\frac{\pi}{2})=\text{undefine}\)</p>
+              <p>\(\sin(\pi)=0\)</p>
+              <p>\(\cos(\pi)=-1\)</p>
+              <p>\(\tan(\pi)=0\)</p>
+            </div>
+          </div>
         </div>
 
         <div class="section">
@@ -262,7 +240,7 @@
         <h2>chapter 2 | differentiation</h2>
 
         <div class="section">
-          <h1>🚧 work in progress 🚧</h1>
+          <h3>[work in progress]</h3>
         </div>
       </div>
 
