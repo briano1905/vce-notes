@@ -1,0 +1,21 @@
+---
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    includes:
+      in_header: head.html
+documentclass: book
+---
+
+# physics 3/4 {-}
+
+a summary of vce physics 3/4 by briano
+
+```{r include=FALSE}
+library(htmltools)
+desmos <- function(latex) {
+  div(class = "desmos",
+      latex = latex
+  )
+}
+```

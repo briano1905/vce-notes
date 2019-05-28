@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>1 How do things move without contact? | _main.utf8.md</title>
+  <meta name="description" content="">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="1 How do things move without contact? | _main.utf8.md" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1 How do things move without contact? | _main.utf8.md" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="how-are-fields-used-to-move-electrical-energy.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="https://www.desmos.com/api/v1.2/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+<script>
+  window.onload = function() {
+    let graphs = document.querySelectorAll('.desmos');
+    graphs.forEach(g => {
+      console.log(g.getAttribute('latex'));
+      let texs = g.getAttribute('latex').split('$');
+      let calculator = Desmos.GraphingCalculator(g);
+      calculator.colors.RED = '#c6262e';
+      calculator.colors.BLUE = '#3689e6';
+      calculator.colors.GREEN = '#68b723';
+      calculator.colors.PURPLE = '#a56de2';
+      calculator.colors.ORANGE = '#f37329';
+      calculator.colors.BLACK = '#333333';
+      texs.forEach(tex => calculator.setExpression({ latex: tex }));
+    });
+  };
+</script>
+<style>
+  .desmos {
+    position: relative;
+    padding-bottom: 75%;
+    width: 100%;
+  }
+  .desmos > * {
+    position: absolute;
+  }
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>physics 3/4</a></li>
+<li class="chapter" data-level="1" data-path="how-do-things-move-without-contact.html"><a href="how-do-things-move-without-contact.html"><i class="fa fa-check"></i><b>1</b> How do things move without contact?</a><ul>
+<li class="chapter" data-level="1.1" data-path="how-do-things-move-without-contact.html"><a href="how-do-things-move-without-contact.html#gravitational"><i class="fa fa-check"></i><b>1.1</b> Gravitational</a></li>
+<li class="chapter" data-level="1.2" data-path="how-do-things-move-without-contact.html"><a href="how-do-things-move-without-contact.html#electrical"><i class="fa fa-check"></i><b>1.2</b> Electrical</a></li>
+<li class="chapter" data-level="1.3" data-path="how-do-things-move-without-contact.html"><a href="how-do-things-move-without-contact.html#magnetic"><i class="fa fa-check"></i><b>1.3</b> Magnetic</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="how-do-things-move-without-contact.html"><a href="how-do-things-move-without-contact.html#lorentz-force-n"><i class="fa fa-check"></i><b>1.3.1</b> Lorentz force <span class="math inline">\((N)\)</span></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="how-are-fields-used-to-move-electrical-energy.html"><a href="how-are-fields-used-to-move-electrical-energy.html"><i class="fa fa-check"></i><b>2</b> How are fields used to move electrical energy</a><ul>
+<li class="chapter" data-level="2.1" data-path="how-are-fields-used-to-move-electrical-energy.html"><a href="how-are-fields-used-to-move-electrical-energy.html#electromagnetic-induction"><i class="fa fa-check"></i><b>2.1</b> Electromagnetic induction</a></li>
+<li class="chapter" data-level="2.2" data-path="how-are-fields-used-to-move-electrical-energy.html"><a href="how-are-fields-used-to-move-electrical-energy.html#power-transmission"><i class="fa fa-check"></i><b>2.2</b> Power Transmission</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="how-fast-can-things-go.html"><a href="how-fast-can-things-go.html"><i class="fa fa-check"></i><b>3</b> How fast can things go?</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="how-do-things-move-without-contact" class="section level1">
+<h1><span class="header-section-number">1</span> How do things move without contact?</h1>
+<p><strong>Inverse square law</strong> states that if the distance is increased by a factor of <span class="math inline">\(a\)</span>, then the Force is decreased by a factor of <span class="math inline">\(a^2\)</span>.</p>
+<p><span class="math display">\[F\propto{\frac{1}{r^2}}\]</span></p>
+<div id="gravitational" class="section level2">
+<h2><span class="header-section-number">1.1</span> Gravitational</h2>
+<table>
+<thead>
+<tr class="header">
+<th>name</th>
+<th>symbol</th>
+<th>units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mass</td>
+<td><span class="math inline">\(M,m\)</span></td>
+<td><span class="math inline">\((kg)\)</span></td>
+</tr>
+<tr class="even">
+<td>Gravitational field strength</td>
+<td><span class="math inline">\(g\)</span></td>
+<td><span class="math inline">\((Nkg^{-1})(ms^{-2})\)</span></td>
+</tr>
+<tr class="odd">
+<td>Gravitational constant</td>
+<td><span class="math inline">\(G\)</span></td>
+<td><span class="math inline">\((m^3kg^{-1}s^{-2})\)</span></td>
+</tr>
+<tr class="even">
+<td>Gravitational force</td>
+<td><span class="math inline">\(F_g\)</span></td>
+<td><span class="math inline">\((N)\)</span></td>
+</tr>
+<tr class="odd">
+<td>Gravitational potential energy</td>
+<td><span class="math inline">\(E_g\)</span></td>
+<td><span class="math inline">\((J)\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[G=6.67\times{}10^{-11}\]</span></p>
+<p><span class="math display">\[g=\frac{GM}{r^2}\]</span></p>
+<p><span class="math display">\[F_g=mg=\frac{GMm}{r^2}\]</span></p>
+<p><span class="math display">\[E_g=mg\Delta{h}\]</span></p>
+<p><strong>Kepler’s law</strong> states that the period of orbit square divided by the radius of orbit cubed is a constant.</p>
+<p><span class="math display">\[\frac{T^2}{r^3}=\frac{4\pi^2}{GM}\]</span></p>
+</div>
+<div id="electrical" class="section level2">
+<h2><span class="header-section-number">1.2</span> Electrical</h2>
+<table>
+<thead>
+<tr class="header">
+<th>name</th>
+<th>symbol</th>
+<th>units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Charge</td>
+<td><span class="math inline">\(Q,q\)</span></td>
+<td><span class="math inline">\((C)\)</span></td>
+</tr>
+<tr class="even">
+<td>Electrical field strength</td>
+<td><span class="math inline">\(E\)</span></td>
+<td><span class="math inline">\((NC^{-1})(Vm^{-1})\)</span></td>
+</tr>
+<tr class="odd">
+<td>Coulomb’s constant</td>
+<td><span class="math inline">\(k\)</span></td>
+<td><span class="math inline">\((Nm^2C^{-2})\)</span></td>
+</tr>
+<tr class="even">
+<td>Electric force</td>
+<td><span class="math inline">\(F_e\)</span></td>
+<td><span class="math inline">\((N)\)</span></td>
+</tr>
+<tr class="odd">
+<td>Voltage</td>
+<td><span class="math inline">\(V\)</span></td>
+<td><span class="math inline">\((V)\)</span></td>
+</tr>
+<tr class="even">
+<td>Distance</td>
+<td><span class="math inline">\(d\)</span></td>
+<td><span class="math inline">\((m)\)</span></td>
+</tr>
+<tr class="odd">
+<td>Work done</td>
+<td><span class="math inline">\(W\)</span></td>
+<td><span class="math inline">\((J)\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[Q_{proton}=1.6\times{}10^{-19}\]</span></p>
+<p><span class="math display">\[m_{electron}=9.1\times{}10^{-31}\]</span></p>
+<p><span class="math display">\[k=\frac{1}{4\pi{}\varepsilon_0}=8.987\times{}10^9\]</span></p>
+<p><span class="math display">\[E=\frac{kQ}{r^2}\]</span></p>
+<p><span class="math display">\[F_e=qE=\frac{kQq}{r^2}\]</span></p>
+<p><span class="math display">\[W=fd=qV\]</span></p>
+</div>
+<div id="magnetic" class="section level2">
+<h2><span class="header-section-number">1.3</span> Magnetic</h2>
+<table>
+<thead>
+<tr class="header">
+<th>name</th>
+<th>symbol</th>
+<th>units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Charge</td>
+<td><span class="math inline">\(q\)</span></td>
+<td><span class="math inline">\((C)\)</span></td>
+</tr>
+<tr class="even">
+<td>Velocity</td>
+<td><span class="math inline">\(v\)</span></td>
+<td><span class="math inline">\((ms^{-1})\)</span></td>
+</tr>
+<tr class="odd">
+<td>Magnetic field strength</td>
+<td><span class="math inline">\(B\)</span></td>
+<td><span class="math inline">\((T)\)</span></td>
+</tr>
+<tr class="even">
+<td>Number of loops</td>
+<td><span class="math inline">\(n\)</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Current</td>
+<td><span class="math inline">\(I\)</span></td>
+<td><span class="math inline">\((A)\)</span></td>
+</tr>
+<tr class="even">
+<td>Length</td>
+<td><span class="math inline">\(l\)</span></td>
+<td><span class="math inline">\((m)\)</span></td>
+</tr>
+</tbody>
+</table>
+<div id="lorentz-force-n" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Lorentz force <span class="math inline">\((N)\)</span></h3>
+<p><span class="math display">\[F_m=qvB\]</span></p>
+<p><span class="math display">\[F_m=nilB\]</span></p>
+<div class="figure">
+<img src="img/right-hand-grip-rule.png" alt="Right hand grip rule" />
+<p class="caption">Right hand grip rule</p>
+</div>
+<div class="figure">
+<img src="img/right-hand-lorentz-rule.png" alt="Right hand lorentz rule" />
+<p class="caption">Right hand lorentz rule</p>
+</div>
+<div class="figure">
+<img src="img/parallel-wires.png" alt="Parallel wires" />
+<p class="caption">Parallel wires</p>
+</div>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="how-are-fields-used-to-move-electrical-energy.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

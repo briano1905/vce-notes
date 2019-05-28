@@ -1,0 +1,64 @@
+# How are fields used to move electrical energy
+
+## Electromagnetic induction
+
+| name                      | symbol        | units     |
+| ------------------------- | ------------- | --------- |
+| Area of loop              | $A$           | $(m^2)$   |
+| Magnetic field strength   | $B$           | $(T)$     |
+| Magnetic flux             | $\Phi$        | $(Wb)$    |
+| Electromotive force (EMF) | $\varepsilon$ | $(V)$     |
+| Length of wire            | $l$           | $(m)$     |
+| Velocity of wire          | $v$           | $(ms^-1)$ |
+
+**Magnetic flux** is the number of magnetic field lines passing through a surface (such as a loop of wire)
+
+$$\Phi=B_\perp{A}$$
+
+**Faraday's Law** states that an EMF is generated in a current carrying loop equal to the negative rate of change of magnetic flux
+
+Rotating loop in a magnetic field
+
+$$\varepsilon=n\frac{\Delta{\Phi}}{\Delta{t}}$$
+
+Wire moving in a magnetic field
+
+$$\varepsilon=Blv$$
+
+**Lenz's Law** states that the direction of the induced current is such that the magnetic field of the current opposes the direction of the change in magnetic field.
+
+**Slip ring** is used to connect the loop to the rest of the circuit resulting in a continuous AC (alternating current)
+
+**Split ring commutator** reverses the direction of the current every half turn, flipping all the negative currents into positive currents making DC (direct current)
+
+**RMS voltage** is the equivalent DC voltage that produces the same power in a load as the corresponding AC voltage
+
+$$V_{RMS}=\frac{V_{peak}}{\sqrt{2}}$$
+
+$$I_{RMS}=\frac{I_{peak}}{\sqrt{2}}$$
+
+## Power Transmission
+
+| name            | symbol     | units      |
+| --------------- | ---------- | ---------- |
+| Current         | $I$        | $(A)$      |
+| Voltage         | $V$        | $(V)$      |
+| Number of loops | $n$        |            |
+| Number of loops | $R$        | $(\Omega)$ |
+| Power loss      | $P_{loss}$ | $(W)$      |
+
+**Transformers** is used to increase/decrease the voltage in a current to reduce power loss when transmitting power and it only works with AC Current.
+
+$$\frac{I_s}{I_p}=\frac{V_p}{V_s}=\frac{n_p}{n_s}$$
+
+Power
+
+$$P=VI$$
+
+Ohms Law
+
+$$V=IR$$
+
+Power loss
+
+$$P_{loss}=I^2R=\frac{V^2}{R}$$

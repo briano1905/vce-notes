@@ -1,0 +1,5 @@
+# How fast can things go?
+
+**Frame of reference** is a set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements.
+
+**Inertial frame of reference** is a frame of reference that is not accelerating

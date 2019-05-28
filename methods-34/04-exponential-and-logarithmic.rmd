@@ -1,0 +1,66 @@
+# exponential and logarithmic functions
+
+## exponential functions
+
+for $a\in{}R^+\setminus\{1\}$, the graph $y=a^x$ has the following properties:
+
+- the y-axis intercept is 1
+- the x-axis is an asymptote
+
+```{r echo=FALSE}
+desmos("f(x)=2^x$g(x)=e^x$h(x)=10^x")
+```
+
+| index laws               |                                   |
+| ------------------------ | --------------------------------- |
+| $x^a\times{}x^b=x^{a+b}$ | $x^a\div{}x^b=x^{a-b}$            |
+| $(xy)^a=x^ay^a$          | $(\frac{x}{y})^a=\frac{x^a}{y^a}$ |
+| $(x^a)^b=x^{ab}$         | $x^0=1$                           |
+
+## logarithmic functions
+
+for $a\in{}R^+\setminus\{1\}$, the graph $y=\log_ax$ has the following properties:
+
+- the x-axis intercept is 1
+- the y-axis is an asymptote
+
+```{r echo=FALSE}
+desmos("f(x)=\\log_2{x}$g(x)=\\log_e{x}$h(x)=\\log_{10}{x}")
+```
+
+| log laws | |
+| -- | -- |
+| $\log_am+\log_an=\log_a(mn)$ | $\log_am-\log_an=\log_a(\frac{m}{n})$ |
+| $p\log_am=\log_a(m^p)$ | $-\log_am=\log_a(\frac{1}{m})$ |
+| $\log_a1=0$ | $\log_aa=1$ |
+
+$$\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}$$
+
+## exponential-logarithmic relation
+
+$\log_ax$ is the inverse function of $a^x$ and $a^x$ is the inverse function of $\log_ax$
+
+```{r echo=FALSE}
+desmos("f(x)=a^x$g(x)=\\log_a{x}$a=2")
+```
+
+- $\log_a{a^x}=x$ for all $x$
+- $a^{\log_a{x}}=x$ for all positive values of $x$
+
+## exponential growth and decay
+
+model for quantity growing/decaying at an exponential rate:
+
+$A=a_0b^t$
+
+- $A_0$ is the initial quantity
+- $b=e^k$ is the rate constant (growth if $b>1$, decay if $b<1$)
+- $t$ is time
+
+cell growth - doubles every $T_D$ (unit of time):
+
+$N=N_02^{\frac{t}{T_D}}$
+
+- $N_0$ is the initial quantity
+- $T_D$ is the generation time (how long it takes to double)
+- $t$ is time

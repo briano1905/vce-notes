@@ -1,0 +1,41 @@
+# transformations
+
+## translations
+
+the graph is moved (translated) but the shape stays the same
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$y=f(x-h)+k$h=5$k=-7")
+```
+
+## dilations
+
+the graph is stretch or squashed, if the factor is negative the graph is reflected over the axis
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$y=bf(\\frac{x}{a})$a=2$b=-1")
+```
+
+## combinations of transformations
+
+using translation and dilation together. order matters!
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$y=bf(\\frac{x-h}{a})+k$h=-2$k=5$a=2$b=-1")
+```
+
+## transformation formula
+
+$$\begin{bmatrix}x'\\y'\end{bmatrix}=\begin{bmatrix}a&0\\0&b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}$$
+$$x'=ax+h\qquad y'=by+k$$
+$$x=\frac{x'-h}{a}\qquad y=\frac{y'-k}{b}$$
+$$y=f(x)$$
+$$y=bf(\frac{x-h}{a})+k$$
+
+## inverse transformation
+
+the graph is reflected in the line $y=x$. to find the inverse function, swap $x$ and $y$
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$x=f(y)")
+```
