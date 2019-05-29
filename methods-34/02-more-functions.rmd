@@ -1,6 +1,22 @@
-# exponential and logarithmic functions
+# more functions
 
-## exponential functions
+## power functions
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$g(x)=x^3$h(x)=x^4")
+```
+
+```{r echo=FALSE}
+desmos("i(x)=\\sqrt{x}$j(x)=x^{1/3}")
+```
+
+```{r echo=FALSE}
+desmos("k(x)=\\frac{1}{x}$l(x)=\\frac{1}{x^2}")
+```
+
+## exponentials and logarithms
+
+### exponential functions
 
 for $a\in{}R^+\setminus\{1\}$, the graph $y=a^x$ has the following properties:
 
@@ -17,7 +33,7 @@ desmos("f(x)=2^x$g(x)=e^x$h(x)=10^x")
 | $(xy)^a=x^ay^a$          | $(\frac{x}{y})^a=\frac{x^a}{y^a}$ |
 | $(x^a)^b=x^{ab}$         | $x^0=1$                           |
 
-## logarithmic functions
+### logarithmic functions
 
 for $a\in{}R^+\setminus\{1\}$, the graph $y=\log_ax$ has the following properties:
 
@@ -28,26 +44,14 @@ for $a\in{}R^+\setminus\{1\}$, the graph $y=\log_ax$ has the following propertie
 desmos("f(x)=\\log_2{x}$g(x)=\\log_e{x}$h(x)=\\log_{10}{x}")
 ```
 
-| log laws | |
-| -- | -- |
+| log laws                     |                                       |
+| ---------------------------- | ------------------------------------- |
 | $\log_am+\log_an=\log_a(mn)$ | $\log_am-\log_an=\log_a(\frac{m}{n})$ |
-| $p\log_am=\log_a(m^p)$ | $-\log_am=\log_a(\frac{1}{m})$ |
-| $\log_a1=0$ | $\log_aa=1$ |
+| $p\log_am=\log_a(m^p)$       | $-\log_am=\log_a(\frac{1}{m})$        |
+| $\log_a1=0$                  | $\log_aa=1$                           |
+| $\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}$ |    |
 
-$$\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}$$
-
-## exponential-logarithmic relation
-
-$\log_ax$ is the inverse function of $a^x$ and $a^x$ is the inverse function of $\log_ax$
-
-```{r echo=FALSE}
-desmos("f(x)=a^x$g(x)=\\log_a{x}$a=2")
-```
-
-- $\log_a{a^x}=x$ for all $x$
-- $a^{\log_a{x}}=x$ for all positive values of $x$
-
-## exponential growth and decay
+### exponential growth and decay
 
 model for quantity growing/decaying at an exponential rate:
 
@@ -64,3 +68,9 @@ $N=N_02^{\frac{t}{T_D}}$
 - $N_0$ is the initial quantity
 - $T_D$ is the generation time (how long it takes to double)
 - $t$ is time
+
+## circular functions
+
+```{r echo=FALSE}
+desmos("f(x)=\\sin(x)$g(x)=\\cos(x)$h(x)=\\tan(x)")
+```

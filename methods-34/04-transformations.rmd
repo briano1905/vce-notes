@@ -31,11 +31,3 @@ $$x'=ax+h\qquad y'=by+k$$
 $$x=\frac{x'-h}{a}\qquad y=\frac{y'-k}{b}$$
 $$y=f(x)$$
 $$y=bf(\frac{x-h}{a})+k$$
-
-## inverse transformation
-
-the graph is reflected in the line $y=x$. to find the inverse function, swap $x$ and $y$
-
-```{r echo=FALSE}
-desmos("f(x)=x^2$x=f(y)")
-```
