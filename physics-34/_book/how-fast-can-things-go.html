@@ -46,7 +46,22 @@
 
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126815322-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126815322-2');
+</script>
+
+<link rel="shortcut icon" href="../img/book.png" />
+
 <script src="https://www.desmos.com/api/v1.2/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+
 <script>
   window.onload = function() {
     let graphs = document.querySelectorAll('.desmos');
@@ -64,11 +79,12 @@
     });
   };
 </script>
+
 <style>
   .desmos {
     position: relative;
     padding-bottom: 75%;
-    width: 100%;
+    margin-bottom: 2em;
   }
   .desmos > * {
     position: absolute;
@@ -125,6 +141,13 @@
 <p><strong>Inertial frame of reference</strong> is a frame of reference that is not accelerating</p>
 
 </div>
+<script>
+  let home = document.createElement('a');
+  home.setAttribute('class', 'btn pull-left');
+  home.setAttribute('href', '../..');
+  home.innerHTML = 'vce notes';
+  document.querySelector('.book-header').appendChild(home);
+</script>
             </section>
 
           </div>
@@ -146,8 +169,8 @@ gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
-"facebook": true,
-"twitter": true,
+"facebook": false,
+"twitter": false,
 "google": false,
 "linkedin": false,
 "weibo": false,

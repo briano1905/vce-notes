@@ -4,6 +4,11 @@ output:
   bookdown::gitbook:
     includes:
       in_header: head.html
+      after_body: body.html
+    config:
+      sharing:
+        facebook: no
+        twitter: no
 documentclass: book
 ---
 
