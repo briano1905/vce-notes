@@ -16,6 +16,20 @@ the graph is stretch or squashed, if the factor is negative the graph is reflect
 desmos("f(x)=x^2$y=bf(\\frac{x}{a})$a=2$b=-1")
 ```
 
+## transformation formula
+
+$$\begin{bmatrix}x'\\y'\end{bmatrix}=\begin{bmatrix}a&0\\0&b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}$$
+$$x'=ax+h\qquad y'=by+k$$
+$$x=\frac{x'-h}{a}\qquad y=\frac{y'-k}{b}$$
+$$y=f(x)$$
+$$\frac{y-k}{b}=f(\frac{x-h}{a})$$
+$$y=bf(\frac{x-h}{a})+k$$
+
+- dilation of factor $a$ from the $y$ axis
+- dilation of factor $b$ from the $x$ axis
+- translation of $h$ units in the positive $x$ direction
+- translation of $k$ units in the positive $y$ direction
+
 ## combinations of transformations
 
 using translation and dilation together. order matters!
@@ -23,11 +37,3 @@ using translation and dilation together. order matters!
 ```{r echo=FALSE}
 desmos("f(x)=x^2$y=bf(\\frac{x-h}{a})+k$h=-2$k=5$a=2$b=-1")
 ```
-
-## transformation formula
-
-$$\begin{bmatrix}x'\\y'\end{bmatrix}=\begin{bmatrix}a&0\\0&b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}$$
-$$x'=ax+h\qquad y'=by+k$$
-$$x=\frac{x'-h}{a}\qquad y=\frac{y'-k}{b}$$
-$$y=f(x)$$
-$$y=bf(\frac{x-h}{a})+k$$

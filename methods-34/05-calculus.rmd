@@ -31,7 +31,7 @@ $$f'(x)=\lim_{h\to{}0}\frac{f(x+h)-f(x)}{h}$$
 
 $$\frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}$$
 
-### produc rule
+### product rule
 
 $$\frac{d}{dx}uv=v\frac{du}{dx}+u\frac{dv}{dx}$$
 

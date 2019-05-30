@@ -20,7 +20,10 @@ the degree of the polynomial is the largest exponent of that variable.
 
 ### general form
 
-easy to find y-intercept, hard to graph
+$$f(x)=ax^3+bx^2+cx+d$$
+
+- easy to find y-intercept
+- hard to graph
 
 ```{r echo=FALSE}
 desmos("f(x)=a$g(x)=ax+b$h(x)=ax^2+bx+c$i(x)=ax^3+bx^2+cx+d$j(x)=ax^4+bx^3+cx^2+dx+e$a=-2$b=4$c=-2$d=3$e=-3")
@@ -28,7 +31,10 @@ desmos("f(x)=a$g(x)=ax+b$h(x)=ax^2+bx+c$i(x)=ax^3+bx^2+cx+d$j(x)=ax^4+bx^3+cx^2+
 
 ### turning point form
 
-easy to find x-intercepts and graph
+$$f(x)=a(x-b)(x-c)(x-d)$$
+
+- easy to find x-intercepts
+- easy to graph
 
 ```{r echo=FALSE}
 desmos("f(x)=a(x-b)$g(x)=a(x-b)(x-c)$h(x)=a(x-b)(x-c)(x-d)$i(x)=a(x-b)(x-c)(x-d)(x-e)$a=-2$b=0$c=-3$d=-4$e=-1")

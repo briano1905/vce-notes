@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>4 transformations | _main.utf8.md</title>
+  <title></title>
   <meta name="description" content="">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="4 transformations | _main.utf8.md" />
+  <meta property="og:title" content="" />
   <meta property="og:type" content="book" />
   
   
@@ -17,7 +17,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 transformations | _main.utf8.md" />
+  <meta name="twitter:title" content="" />
   
   
   
@@ -62,6 +62,22 @@
 
 <script src="https://www.desmos.com/api/v1.2/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
+<style>
+  .desmos {
+    position: relative;
+    padding-bottom: 75%;
+    margin-bottom: 2em;
+  }
+  .desmos > * {
+    position: absolute;
+  }
+  @media only screen and (max-width: 600px) {
+    .desmos {
+      padding-bottom: 200%;
+    }
+  }
+</style>
+
 <script>
   window.onload = function() {
     let graphs = document.querySelectorAll('.desmos');
@@ -79,17 +95,6 @@
     });
   };
 </script>
-
-<style>
-  .desmos {
-    position: relative;
-    padding-bottom: 75%;
-    margin-bottom: 2em;
-  }
-  .desmos > * {
-    position: absolute;
-  }
-</style>
 
 
 
@@ -134,15 +139,15 @@
 <li class="chapter" data-level="4" data-path="transformations.html"><a href="transformations.html"><i class="fa fa-check"></i><b>4</b> transformations</a><ul>
 <li class="chapter" data-level="4.1" data-path="transformations.html"><a href="transformations.html#translations"><i class="fa fa-check"></i><b>4.1</b> translations</a></li>
 <li class="chapter" data-level="4.2" data-path="transformations.html"><a href="transformations.html#dilations"><i class="fa fa-check"></i><b>4.2</b> dilations</a></li>
-<li class="chapter" data-level="4.3" data-path="transformations.html"><a href="transformations.html#combinations-of-transformations"><i class="fa fa-check"></i><b>4.3</b> combinations of transformations</a></li>
-<li class="chapter" data-level="4.4" data-path="transformations.html"><a href="transformations.html#transformation-formula"><i class="fa fa-check"></i><b>4.4</b> transformation formula</a></li>
+<li class="chapter" data-level="4.3" data-path="transformations.html"><a href="transformations.html#transformation-formula"><i class="fa fa-check"></i><b>4.3</b> transformation formula</a></li>
+<li class="chapter" data-level="4.4" data-path="transformations.html"><a href="transformations.html#combinations-of-transformations"><i class="fa fa-check"></i><b>4.4</b> combinations of transformations</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="calculus.html"><a href="calculus.html"><i class="fa fa-check"></i><b>5</b> calculus</a><ul>
 <li class="chapter" data-level="5.1" data-path="calculus.html"><a href="calculus.html#continuity-and-differentiability"><i class="fa fa-check"></i><b>5.1</b> continuity and differentiability</a></li>
 <li class="chapter" data-level="5.2" data-path="calculus.html"><a href="calculus.html#differentiation"><i class="fa fa-check"></i><b>5.2</b> differentiation</a><ul>
 <li class="chapter" data-level="5.2.1" data-path="calculus.html"><a href="calculus.html#common-derivative"><i class="fa fa-check"></i><b>5.2.1</b> common derivative</a></li>
 <li class="chapter" data-level="5.2.2" data-path="calculus.html"><a href="calculus.html#chain-rule"><i class="fa fa-check"></i><b>5.2.2</b> chain rule</a></li>
-<li class="chapter" data-level="5.2.3" data-path="calculus.html"><a href="calculus.html#produc-rule"><i class="fa fa-check"></i><b>5.2.3</b> produc rule</a></li>
+<li class="chapter" data-level="5.2.3" data-path="calculus.html"><a href="calculus.html#product-rule"><i class="fa fa-check"></i><b>5.2.3</b> product rule</a></li>
 <li class="chapter" data-level="5.2.4" data-path="calculus.html"><a href="calculus.html#quotient-rule"><i class="fa fa-check"></i><b>5.2.4</b> quotient rule</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="calculus.html"><a href="calculus.html#antidifferentiation"><i class="fa fa-check"></i><b>5.3</b> antidifferentiation</a></li>
@@ -176,18 +181,20 @@
 <p>the graph is stretch or squashed, if the factor is negative the graph is reflected over the axis</p>
 <div class="desmos" latex="f(x)=x^2$y=bf(\frac{x}{a})$a=2$b=-1"></div>
 </div>
+<div id="transformation-formula" class="section level2">
+<h2><span class="header-section-number">4.3</span> transformation formula</h2>
+<p><span class="math display">\[\begin{bmatrix}x&#39;\\y&#39;\end{bmatrix}=\begin{bmatrix}a&amp;0\\0&amp;b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}\]</span> <span class="math display">\[x&#39;=ax+h\qquad y&#39;=by+k\]</span> <span class="math display">\[x=\frac{x&#39;-h}{a}\qquad y=\frac{y&#39;-k}{b}\]</span> <span class="math display">\[y=f(x)\]</span> <span class="math display">\[\frac{y-k}{b}=f(\frac{x-h}{a})\]</span> <span class="math display">\[y=bf(\frac{x-h}{a})+k\]</span></p>
+<ul>
+<li>dilation of factor <span class="math inline">\(a\)</span> from the <span class="math inline">\(y\)</span> axis</li>
+<li>dilation of factor <span class="math inline">\(b\)</span> from the <span class="math inline">\(x\)</span> axis</li>
+<li>translation of <span class="math inline">\(h\)</span> units in the positive <span class="math inline">\(x\)</span> direction</li>
+<li>translation of <span class="math inline">\(k\)</span> units in the positive <span class="math inline">\(y\)</span> direction</li>
+</ul>
+</div>
 <div id="combinations-of-transformations" class="section level2">
-<h2><span class="header-section-number">4.3</span> combinations of transformations</h2>
+<h2><span class="header-section-number">4.4</span> combinations of transformations</h2>
 <p>using translation and dilation together. order matters!</p>
 <div class="desmos" latex="f(x)=x^2$y=bf(\frac{x-h}{a})+k$h=-2$k=5$a=2$b=-1"></div>
-</div>
-<div id="transformation-formula" class="section level2">
-<h2><span class="header-section-number">4.4</span> transformation formula</h2>
-<p><span class="math display">\[\begin{bmatrix}x&#39;\\y&#39;\end{bmatrix}=\begin{bmatrix}a&amp;0\\0&amp;b\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}+\begin{bmatrix}h\\k\end{bmatrix}\]</span>
-<span class="math display">\[x&#39;=ax+h\qquad y&#39;=by+k\]</span>
-<span class="math display">\[x=\frac{x&#39;-h}{a}\qquad y=\frac{y&#39;-k}{b}\]</span>
-<span class="math display">\[y=f(x)\]</span>
-<span class="math display">\[y=bf(\frac{x-h}{a})+k\]</span></p>
 
 </div>
 </div>
@@ -254,7 +261,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "true";
+    var src = "";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
