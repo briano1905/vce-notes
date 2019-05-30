@@ -138,7 +138,11 @@
 <li class="chapter" data-level="3.2.2" data-path="more-functions.html"><a href="more-functions.html#logarithmic-functions"><i class="fa fa-check"></i><b>3.2.2</b> logarithmic functions</a></li>
 <li class="chapter" data-level="3.2.3" data-path="more-functions.html"><a href="more-functions.html#exponential-growth-and-decay"><i class="fa fa-check"></i><b>3.2.3</b> exponential growth and decay</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="more-functions.html"><a href="more-functions.html#circular-functions"><i class="fa fa-check"></i><b>3.3</b> circular functions</a></li>
+<li class="chapter" data-level="3.3" data-path="more-functions.html"><a href="more-functions.html#circular-functions"><i class="fa fa-check"></i><b>3.3</b> circular functions</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="more-functions.html"><a href="more-functions.html#exact-values"><i class="fa fa-check"></i><b>3.3.1</b> exact values</a></li>
+<li class="chapter" data-level="3.3.2" data-path="more-functions.html"><a href="more-functions.html#symmetric-properties"><i class="fa fa-check"></i><b>3.3.2</b> symmetric properties</a></li>
+<li class="chapter" data-level="3.3.3" data-path="more-functions.html"><a href="more-functions.html#complementary-angles"><i class="fa fa-check"></i><b>3.3.3</b> complementary angles</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="advance-functions.html"><a href="advance-functions.html"><i class="fa fa-check"></i><b>4</b> advance functions</a><ul>
 <li class="chapter" data-level="4.1" data-path="advance-functions.html"><a href="advance-functions.html#hybrid-functions"><i class="fa fa-check"></i><b>4.1</b> hybrid functions</a></li>
@@ -226,6 +230,10 @@
 </ul>
 <div class="desmos" latex="f(x)=\log_2{x}$g(x)=\log_e{x}$h(x)=\log_{10}{x}"></div>
 <table>
+<colgroup>
+<col width="31%" />
+<col width="68%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>log laws</th>
@@ -234,20 +242,16 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><span class="math inline">\(\log_am+\log_an=\log_a(mn)\)</span></td>
-<td><span class="math inline">\(\log_am-\log_an=\log_a(\frac{m}{n})\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(p\log_am=\log_a(m^p)\)</span></td>
-<td><span class="math inline">\(-\log_am=\log_a(\frac{1}{m})\)</span></td>
-</tr>
-<tr class="odd">
 <td><span class="math inline">\(\log_a1=0\)</span></td>
 <td><span class="math inline">\(\log_aa=1\)</span></td>
 </tr>
 <tr class="even">
+<td><span class="math inline">\(\log_am+\log_an=\log_a(mn)\)</span></td>
+<td><span class="math inline">\(\log_am-\log_an=\log_a(\frac{m}{n})\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(p\log_am=\log_a(m^p)\)</span></td>
 <td><span class="math inline">\(\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}\)</span></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -273,7 +277,100 @@
 <div id="circular-functions" class="section level2">
 <h2><span class="header-section-number">3.3</span> circular functions</h2>
 <div class="desmos" latex="f(x)=\sin(x)$g(x)=\cos(x)$h(x)=\tan(x)"></div>
+<div id="exact-values" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> exact values</h3>
+<p>for <span class="math inline">\(x\in{[0,\frac{\pi}{2}]}\)</span></p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">function</th>
+<th align="center"><span class="math inline">\(0\)</span></th>
+<th align="center"><span class="math inline">\(\frac{\pi}{6}\)</span></th>
+<th align="center"><span class="math inline">\(\frac{\pi}{4}\)</span></th>
+<th align="center"><span class="math inline">\(\frac{\pi}{3}\)</span></th>
+<th align="center"><span class="math inline">\(\frac{\pi}{2}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><span class="math inline">\(\sin\)</span></td>
+<td align="center"><span class="math inline">\(0\)</span></td>
+<td align="center"><span class="math inline">\(\frac{1}{2}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{1}{\sqrt{2}}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{\sqrt{3}}{2}\)</span></td>
+<td align="center"><span class="math inline">\(1\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(\cos\)</span></td>
+<td align="center"><span class="math inline">\(1\)</span></td>
+<td align="center"><span class="math inline">\(\frac{\sqrt{3}}{2}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{1}{\sqrt{2}}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{1}{2}\)</span></td>
+<td align="center"><span class="math inline">\(0\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(\tan\)</span></td>
+<td align="center"><span class="math inline">\(0\)</span></td>
+<td align="center"><span class="math inline">\(\frac{1}{\sqrt{3}}\)</span></td>
+<td align="center"><span class="math inline">\(1\)</span></td>
+<td align="center"><span class="math inline">\(\sqrt{3}\)</span></td>
+<td align="center"><span class="math inline">\(\text{undefine}\)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="desmos" latex="x^2+y^2=100$\left(10\cos\left(t\right),10\sin\left(t\right)\right)$t=0"></div>
+</div>
+<div id="symmetric-properties" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> symmetric properties</h3>
+<table>
+<thead>
+<tr class="header">
+<th><span class="math inline">\(-x\)</span></th>
+<th><span class="math inline">\(\pi-x\)</span></th>
+<th><span class="math inline">\(\pi+x\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\sin(-x)=-\sin(x)\)</span></td>
+<td><span class="math inline">\(\sin(\pi-x)=\sin(x)\)</span></td>
+<td><span class="math inline">\(\sin(\pi+x)=-\sin(x)\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\cos(-x)=\cos(x)\)</span></td>
+<td><span class="math inline">\(\cos(\pi-x)=-\cos(x)\)</span></td>
+<td><span class="math inline">\(\cos(\pi+x)=-\cos(x)\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\tan(-x)=-\tan(x)\)</span></td>
+<td><span class="math inline">\(\tan(\pi-x)=-\tan(x)\)</span></td>
+<td><span class="math inline">\(\tan(\pi+x)=\tan(x)\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="complementary-angles" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> complementary angles</h3>
+<table>
+<thead>
+<tr class="header">
+<th><span class="math inline">\(\frac{\pi}{2}-x\)</span></th>
+<th><span class="math inline">\(\frac{\pi}{2}+x\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\sin(\frac{\pi}{2}-x)=\cos(x)\)</span></td>
+<td><span class="math inline">\(\sin(\frac{\pi}{2}+x)=\cos(-x)\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\cos(\frac{\pi}{2}-x)=\sin(x)\)</span></td>
+<td><span class="math inline">\(\cos(\frac{\pi}{2}+x)=\sin(-x)\)</span></td>
+</tr>
+</tbody>
+</table>
 
+</div>
 </div>
 </div>
 <script>

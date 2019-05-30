@@ -10,13 +10,13 @@ $$P(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$$
 
 the degree of the polynomial is the largest exponent of that variable.
 
-| degree | name      | rule                  |
-| ------ | --------- | --------------------- |
-| 0      | constant  | $a$                   |
-| 1      | linear    | $ax+b$                |
-| 2      | quadratic | $ax^2+bx+c$           |
-| 3      | qubic     | $ax^3+bx^2+cx+d$      |
-| 4      | quartic   | $ax^4+bx^3+cx^2+dx+e$ |
+| name      | degree | rule                  |
+| --------- | ------ | --------------------- |
+| constant  | 0      | $a$                   |
+| linear    | 1      | $ax+b$                |
+| quadratic | 2      | $ax^2+bx+c$           |
+| qubic     | 3      | $ax^3+bx^2+cx+d$      |
+| quartic   | 4      | $ax^4+bx^3+cx^2+dx+e$ |
 
 ### general form
 
@@ -58,7 +58,7 @@ $f(x)=ax^2+bx+c$
 
 if $f(x)=0$ then $x=\frac{-b\pm{}\sqrt{b^2-4ac}}{2a}$
 
-the discriminant: $\Delta=b^2-4ac$
+the discriminant $\Delta=b^2-4ac$
 
 - if $\Delta>0$ then the quadratic has 2 real solutions
 - if $\Delta=0$ then the quadratic has 1 real solution

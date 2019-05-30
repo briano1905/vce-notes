@@ -44,12 +44,11 @@ for $a\in{}R^+\setminus\{1\}$, the graph $y=\log_ax$ has the following propertie
 desmos("f(x)=\\log_2{x}$g(x)=\\log_e{x}$h(x)=\\log_{10}{x}")
 ```
 
-| log laws                     |                                       |
-| ---------------------------- | ------------------------------------- |
-| $\log_am+\log_an=\log_a(mn)$ | $\log_am-\log_an=\log_a(\frac{m}{n})$ |
-| $p\log_am=\log_a(m^p)$       | $-\log_am=\log_a(\frac{1}{m})$        |
-| $\log_a1=0$                  | $\log_aa=1$                           |
-| $\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}$ |    |
+| log laws                     |                                                                 |
+| ---------------------------- | --------------------------------------------------------------- |
+| $\log_a1=0$                  | $\log_aa=1$                                                     |
+| $\log_am+\log_an=\log_a(mn)$ | $\log_am-\log_an=\log_a(\frac{m}{n})$                           |
+| $p\log_am=\log_a(m^p)$       | $\log_am=\frac{\log_em}{\log_ea}=\frac{\log_{10}m}{\log_{10}a}$ |
 
 ### exponential growth and decay
 
@@ -74,3 +73,32 @@ $N=N_02^{\frac{t}{T_D}}$
 ```{r echo=FALSE}
 desmos("f(x)=\\sin(x)$g(x)=\\cos(x)$h(x)=\\tan(x)")
 ```
+
+### exact values
+
+for $x\in{[0,\frac{\pi}{2}]}$
+
+| function | $0$ | $\frac{\pi}{6}$      | $\frac{\pi}{4}$      | $\frac{\pi}{3}$      | $\frac{\pi}{2}$   |
+| :------: | :-: | :------------------: | :------------------: | :------------------: | :---------------: |
+| $\sin$   | $0$ | $\frac{1}{2}$        | $\frac{1}{\sqrt{2}}$ | $\frac{\sqrt{3}}{2}$ | $1$               |
+| $\cos$   | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{\sqrt{2}}$ | $\frac{1}{2}$        | $0$               |
+| $\tan$   | $0$ | $\frac{1}{\sqrt{3}}$ | $1$                  | $\sqrt{3}$           | $\text{undefine}$ |
+
+```{r echo=FALSE}
+desmos("x^2+y^2=100$\\left(10\\cos\\left(t\\right),10\\sin\\left(t\\right)\\right)$t=0")
+```
+
+### symmetric properties
+
+| $-x$                | $\pi-x$                | $\pi+x$                |
+| ------------------- | ---------------------- | ---------------------- |
+| $\sin(-x)=-\sin(x)$ | $\sin(\pi-x)=\sin(x)$  | $\sin(\pi+x)=-\sin(x)$ |
+| $\cos(-x)=\cos(x)$  | $\cos(\pi-x)=-\cos(x)$ | $\cos(\pi+x)=-\cos(x)$ |
+| $\tan(-x)=-\tan(x)$ | $\tan(\pi-x)=-\tan(x)$ | $\tan(\pi+x)=\tan(x)$  |
+
+### complementary angles
+
+| $\frac{\pi}{2}-x$               | $\frac{\pi}{2}+x$                |
+| ------------------------------- | -------------------------------- |
+| $\sin(\frac{\pi}{2}-x)=\cos(x)$ | $\sin(\frac{\pi}{2}+x)=\cos(-x)$ |
+| $\cos(\frac{\pi}{2}-x)=\sin(x)$ | $\cos(\frac{\pi}{2}+x)=\sin(-x)$ |
