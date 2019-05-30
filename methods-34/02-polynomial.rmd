@@ -11,7 +11,7 @@ $$P(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$$
 the degree of the polynomial is the largest exponent of that variable.
 
 | name      | degree | rule                  |
-| --------- | ------ | --------------------- |
+| --------- | :----: | --------------------- |
 | constant  | 0      | $a$                   |
 | linear    | 1      | $ax+b$                |
 | quadratic | 2      | $ax^2+bx+c$           |
