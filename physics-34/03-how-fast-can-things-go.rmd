@@ -1,5 +1,17 @@
-# How fast can things go?
+# how fast can things go?
 
-**Frame of reference** is a set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements.
+## special relativity
 
-**Inertial frame of reference** is a frame of reference that is not accelerating
+### frame of reference
+
+frame of reference is a set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements.
+
+### inertial frame of reference
+
+inertial frame of reference is a frame of reference that is not accelerating
+
+### speed of light
+
+the speed of light $c$ is constant in all frame of reference
+
+$$c=3*10^8ms^{-1}$$
