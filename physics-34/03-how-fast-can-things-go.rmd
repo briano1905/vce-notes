@@ -15,3 +15,7 @@ inertial frame of reference is a frame of reference that is not accelerating
 the speed of light $c$ is constant in all frame of reference
 
 $$c=3*10^8ms^{-1}$$
+
+### time dilation
+
+### length contraction
