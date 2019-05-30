@@ -48,7 +48,11 @@ if $P(x)$ is divided by $(ax+b)$ the remainder is $P(-\frac{b}{a})$
 
 if $P(-\frac{b}{a})=0$ then $(ax+b)$ is a factor
 
-## quadratic formula
+## formulas
+
+### quadratic formula
+
+$$\frac{-b\pm{}\sqrt{b^2-4ac}}{2a}$$
 
 $f(x)=ax^2+bx+c$
 
@@ -62,7 +66,11 @@ the discriminant: $\Delta=b^2-4ac$
 
 the vertex is at $(-\frac{b}{2a},f(-\frac{b}{2a}))$
 
-## difference and sum of two cubes
+### difference of squares
 
-- $x^3-a^3=(x-a)(x^2+ax+a^2)$
-- $x^3+a^3=(x+a)(x^2-ax+a^2)$
+$$x^2-a^2=(x+a)(x-a)$$
+
+### difference and sum of two cubes
+
+$$x^3-a^3=(x-a)(x^2+ax+a^2)$$
+$$x^3+a^3=(x+a)(x^2-ax+a^2)$$
