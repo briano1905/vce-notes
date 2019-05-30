@@ -1,0 +1,61 @@
+# advance functions
+
+## hybrid functions
+
+$$f(x)=\begin{cases} 
+  x+2 & x\leq0 \\
+  -x^2+2 & 0<x\leq2 \\
+  -2 & x>2 
+\end{cases}$$
+
+hybrid functions are functions that have different rules for different subsets of their domain
+
+```{r echo=FALSE}
+desmos("x+2\\left\\{x<0\\right\\}$-x^2+2\\left\\{0<x<2\\right\\}$-2\\left\\{x>2\\right\\}")
+```
+
+## inverse functions
+
+the inverse function $f^{-1}(x)$ of a function $f(x)$ is the same as reflecting the the graph $y=f(x)$ over the line $y=x$
+
+to find the inverse of a function $y=f(x)$ swap all $x$ and $y$
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$x=f(y)")
+```
+
+## composite functions
+
+a composite function $f(g(x))$ or $f\circ g(x)$ is a compose of a function inside another function
+
+- $\text{range}(g(x))\in \text{domain}(f(x))$
+- $\text{domain}(f\circ g(x))=\text{domain}(g(x))$
+
+- a composite function can exist if the range of the inside function is a subset of the domain of the outer function
+- the domain of the composite function is the domain of the inside function
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$g(x)=x-2$y=f(g(x))")
+```
+
+## odd and even functions
+
+### even function
+
+an even function are function that are symmetrical about the $y$ axis
+
+$$f(-x)=f(x)$$
+
+```{r echo=FALSE}
+desmos("f(x)=x^2$g(x)=\\cos{x}")
+```
+
+### odd function
+
+an odd function are function that are rotationally symmetrical about the origin
+
+$$f(-x)=-f(x)$$
+
+```{r echo=FALSE}
+desmos("f(x)=x^3$g(x)=\\sin{x}")
+```
