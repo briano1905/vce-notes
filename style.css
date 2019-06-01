@@ -4,14 +4,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
 }
 
 /* Main style */
 body {
-  display: flex;
   font-family: 'lato';
   background-color: #fafafa;
 }
@@ -28,17 +25,14 @@ a {
 #home-page > div {
   position: absolute;
   top: 44%;
-  transform: translate(0, -50%);
-  width: 100%;
+  width: 92%;
+  transform: translate(4%, -50%);
 }
 #home-page > div > div {
   margin: auto;
   padding: 1em;
   max-width: 32em;
   background-color: #fafafa;
-}
-#home-page h1 {
-  padding: 0;
 }
 #home-page p {
   margin-bottom: 1em;
@@ -69,101 +63,4 @@ a {
 }
 #phy-34:hover {
   background-color: #64baff;
-}
-
-/* Side navbar */
-#side-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 48px;
-  height: 100vh;
-  background-color: #1a1a1a;
-}
-#side-nav a {
-  display: block;
-  width: 100%;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  color: #555761;
-  transition: 150ms ease-in;
-}
-#side-nav a:hover {
-  color: #e4c6fa;
-}
-#side-nav .fas {
-  font-size: 1.6em;
-}
-#side-nav h1 {
-  padding: 0;
-}
-#side-nav #home {
-  background-color: #e4c6fa;
-  color: #1a1a1a;
-}
-#side-nav #home:hover {
-  background-color: #cd9ef7;
-}
-
-/* Content */
-#content {
-  width: 100%;
-}
-#content > :first-child, /* Content header */
-.chapter > :first-child, /* Chapter header */
-.section > * {
-  max-width: 960px;
-  margin: auto;
-  padding: 0.2em 0.5em;
-}
-.section {
-  padding: 2em 0;
-  overflow: hidden;
-}
-.section:nth-child(even) {
-  background-color: #edf0f4;
-}
-
-/* Grid containers */
-.grid-container {
-  display: grid;
-  border-top: 1px solid #1a1a1a;
-  border-left: 1px solid #1a1a1a;
-}
-.grid-container > * {
-  padding: 1em;
-  border-bottom: 1px solid #1a1a1a;
-  border-right: 1px solid #1a1a1a;
-}
-.grid-template-columns-2 {
-  grid-template-columns: 1fr 1fr;
-}
-.grid-template-columns-3 {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-/* Ratio containers */
-.ratio-4-3 {
-  width: 100%;
-  padding-bottom: 75%;
-  position: relative;
-}
-.ratio-4-3 > * {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-/* Responsive design */
-@media (max-width: 600px) {
-  #side-nav {
-    display: none;
-  }
-  .ratio-4-3 {
-    padding-bottom: 177.78%;
-  }
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
 }
