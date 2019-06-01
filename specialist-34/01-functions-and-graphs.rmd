@@ -1,1 +1,7 @@
 # functions and graphs
+
+## inverse circular functions
+
+```{r echo=FALSE}
+desmos("f(x)=\\arcsin(x)$g(x)=\\arccos(x)$h(x)=\\arctan(x)")
+```

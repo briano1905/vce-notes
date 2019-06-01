@@ -4,9 +4,9 @@
 
 | name                      | symbol        | units     |
 | ------------------------- | ------------- | --------- |
-| area of loop              | $A$           | $(m^2)$   |
-| magnetic field strength   | $B$           | $(T)$     |
 | magnetic flux             | $\Phi$        | $(Wb)$    |
+| magnetic field strength   | $B$           | $(T)$     |
+| area of loop              | $A$           | $(m^2)$   |
 | electromotive force (EMF) | $\varepsilon$ | $(V)$     |
 | length of wire            | $l$           | $(m)$     |
 | velocity of wire          | $v$           | $(ms^-1)$ |
@@ -51,23 +51,25 @@ $$I_{RMS}=\frac{I_{peak}}{\sqrt{2}}$$
 
 ## power transmission
 
-| name            | symbol     | units      |
-| --------------- | ---------- | ---------- |
-| current         | $I$        | $(A)$      |
-| voltage         | $V$        | $(V)$      |
-| number of loops | $n$        |            |
-| number of loops | $R$        | $(\Omega)$ |
-| power loss      | $P_{loss}$ | $(W)$      |
+| name            | symbol | units      |
+| --------------- | ------ | ---------- |
+| power           | $P$    | $(W)$      |
+| voltage         | $V$    | $(V)$      |
+| current         | $I$    | $(A)$      |
+| number of loops | $n$    |            |
+| resistance      | $R$    | $(\Omega)$ |
+
+### power
+
+$$P=VI$$
 
 ### transformers
 
 transformers is used to increase/decrease the voltage in a current to reduce power loss when transmitting power and it only works with AC Current.
 
+$$P_\text{in}=P_\text{out}$$
+$$V_{p}I_{p}=V_{s}I_{s}$$
 $$\frac{I_s}{I_p}=\frac{V_p}{V_s}=\frac{n_p}{n_s}$$
-
-### power
-
-$$P=VI$$
 
 ### ohms Law
 
@@ -75,4 +77,9 @@ $$V=IR$$
 
 ### power loss
 
-$$P_{loss}=I^2R=\frac{V^2}{R}$$
+$$P_{\text{loss}}=I_\text{line}^2R_\text{line}$$
+
+### voltage drop
+
+$$V_\text{supply}=V_\text{load}+V_\text{drop}$$
+$$V_\text{drop}=I_\text{line}R_\text{line}$$
