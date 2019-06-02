@@ -1,5 +1,75 @@
 # how fast can things go?
 
+## motion
+
+| name                     | symbol | units         |
+| ------------------------ | ------ | ------------- |
+| final velocity           | $v$    | $(ms^{-1})$   |
+| initial velocity         | $u$    | $(ms^{-1})$   |
+| acceleration             | $a$    | $(ms^{-2})$   |
+| time                     | $t$    | $(s)$         |
+| displacement             | $s$    | $(m)$         |
+| centripetal acceleration | $a_c$  | $(ms^{-2})$   |
+| centripetal force        | $F_c$  | $(N)$         |
+| mass                     | $m$    | $(kg)$        |
+| velocity                 | $v$    | $(ms^{-1})$   |
+| distance                 | $r$    | $(m)$         |
+| momentum                 | $p$    | $(kgms^{-1})$ |
+
+### newton's three laws of motion
+
+1. every object in a state of uniform motion will remain in that state of motion unless an external force acts on it
+2. force equals mass times acceleration $F=ma$
+3. for every action there is an equal and opposite reaction
+
+### constant acceleration
+
+$$v=u+at$$
+$$v^2=u^2+2as$$
+$$s=\frac{1}{2}(u+v)t$$
+$$s=ut+\frac{1}{2}at^2$$
+$$s=vt-\frac{1}{2}at^2$$
+
+### circular motion
+
+object moving at constant speed in a circular path
+
+$$a_c=\frac{v^2}{r}$$
+
+$$F_c=\frac{mv^2}{r}$$
+
+### momentum
+
+conservation of momentum states that total momentum before and after a collision is equal
+
+$$P=mv$$
+
+$$\sum{p_\text{initial}}=\sum{p_\text{final}}$$
+
+## energy
+
+energy is a measure of the ability of something to cause a change in the world and its unit is joules $(J)$
+
+| name                           | symbol | units       |
+| ------------------------------ | ------ | ----------- |
+| kinetic energy                 | $E_k$  | $(J)$       |
+| strain energy                  | $E_s$  | $(J)$       |
+| gravitational potential energy | $E_g$  | $(J)$       |
+| mass                           | $m$    | $(m)$       |
+| velocity                       | $v$    | $(ms^{-1})$ |
+| spring constant                | $k$    | $(Nm^{-1})$ |
+| displacement                   | $x$    | $(m)$       |
+
+$$E_k=\frac{1}{2}mv^2$$
+$$E_s=\frac{1}{2}kx^2$$
+$$E_g=mg\Delta{}h$$
+
+### conservation of energy
+
+conservation of energy states that total energy of an isolated system remains constant
+
+$$\sum{E_\text{initial}}=\sum{E_\text{final}}$$
+
 ## special relativity
 
 ### frame of reference
@@ -16,6 +86,8 @@ the speed of light $c$ is constant in all frame of reference
 
 $$c=3*10^8ms^{-1}$$
 
-### time dilation
+## time dilation
 
-### length contraction
+## length contraction
+
+## mass energy
