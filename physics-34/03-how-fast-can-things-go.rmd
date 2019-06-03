@@ -86,8 +86,16 @@ the speed of light $c$ is constant in all frame of reference
 
 $$c=3*10^8ms^{-1}$$
 
-## time dilation
+### lorentz factor
 
-## length contraction
+$$\gamma{}=\frac{1}{\sqrt{1-(\frac{v}{c})^2}}$$
 
-## mass energy
+### time dilation
+
+$$t=\gamma{}t_0$$
+
+### length contraction
+
+$$L=\frac{L_0}{\gamma}$$
+
+### mass energy
