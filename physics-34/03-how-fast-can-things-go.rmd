@@ -89,13 +89,48 @@ $$c=3*10^8ms^{-1}$$
 ### lorentz factor
 
 $$\gamma{}=\frac{1}{\sqrt{1-(\frac{v}{c})^2}}$$
+$$v=c\sqrt{1-(\frac{1}{\gamma})^2}$$
+
+```{r echo=FALSE}
+desmos("y=\\frac{1}{\\sqrt{1-(\\frac{x}{c})^2}}$c=3")
+```
+
+the $x$ axis is dilated by a factor of $\frac{1}{10^{8}}$ so we can see the effect
+
+### proper time
+
+proper time is the time between two events happening at the same location
 
 ### time dilation
 
-$$t=\gamma{}t_0$$
+$$t=t_0\gamma=\frac{t_0}{\sqrt{1-(\frac{v}{c})^2}}$$
+$$v=c\sqrt{1-(\frac{t_0}{t})^2}$$
+
+### proper length
+
+proper length is the length of an object as measure by an observer who is stationary relative to that object
 
 ### length contraction
 
-$$L=\frac{L_0}{\gamma}$$
+$$L=\frac{L_0}{\gamma}=L_0\sqrt{1-(\frac{v}{c})^2}$$
+$$v=c\sqrt{1-(\frac{L}{L_0})^2}$$
 
-### mass energy
+### muons
+
+muons are tiny particles that are produced when cosmic rays enter the earth's atmosphere
+
+### rest energy
+
+rest energy is the energy equivalent to the mass of a particle at rest in an inertial frame of reference
+
+$$E_0=mc^2$$
+
+### total energy
+
+$$E_\text{total}=E_0+E_k$$
+$$E_\text{total}=\gamma{}mc^2=\frac{mc^2}{\sqrt{1-(\frac{v}{c})^2}}$$
+
+### kinetic energy (relativistic effect)
+
+$$E_k=(\gamma{}-1)mc^2$$
+$$E_k=(\frac{1}{\sqrt{1-(\frac{v}{c})^2}}-1)mc^2$$
