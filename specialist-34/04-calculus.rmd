@@ -1,1 +1,7 @@
 # calculus
+
+### euler's method
+
+euler's method is used to estimate a function if gradient function is known
+
+$$\text{euler}(f'(x),x,y,x_0,x_f)$$

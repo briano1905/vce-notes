@@ -3,5 +3,5 @@
 ["functions-and-graphs.html", "1 functions and graphs 1.1 inverse circular functions", " 1 functions and graphs 1.1 inverse circular functions "],
 ["vectors.html", "2 vectors", " 2 vectors "],
 ["complex-numbers.html", "3 complex numbers", " 3 complex numbers "],
-["calculus.html", "4 calculus", " 4 calculus "]
+["calculus.html", "4 calculus", " 4 calculus 4.0.1 euler’s method euler’s method is used to estimate a function if gradient function is known \\[\\text{euler}(f&#39;(x),x,y,x_0,x_f)\\] "]
 ]

@@ -116,7 +116,9 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2</b> vectors</a></li>
 <li class="chapter" data-level="3" data-path="complex-numbers.html"><a href="complex-numbers.html"><i class="fa fa-check"></i><b>3</b> complex numbers</a></li>
-<li class="chapter" data-level="4" data-path="calculus.html"><a href="calculus.html"><i class="fa fa-check"></i><b>4</b> calculus</a></li>
+<li class="chapter" data-level="4" data-path="calculus.html"><a href="calculus.html"><i class="fa fa-check"></i><b>4</b> calculus</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="calculus.html"><a href="calculus.html#eulers-method"><i class="fa fa-check"></i><b>4.0.1</b> euler’s method</a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -196,6 +198,19 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
