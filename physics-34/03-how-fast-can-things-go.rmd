@@ -72,6 +72,11 @@ $$\sum{E_\text{initial}}=\sum{E_\text{final}}$$
 
 ## special relativity
 
+### einsteins two postulates
+
+1. the laws of physics are the same in all inertial frames of reference
+2. the speed of light in free space has the same value c in all inertial frames of reference
+
 ### frame of reference
 
 frame of reference is a set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements.
@@ -99,7 +104,7 @@ the $x$ axis is dilated by a factor of $\frac{1}{10^{8}}$ so we can see the effe
 
 ### proper time
 
-proper time is the time between two events happening at the same location
+proper time is the time interval between two events happening at the same location
 
 ### time dilation
 
