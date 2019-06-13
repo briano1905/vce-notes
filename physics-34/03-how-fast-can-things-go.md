@@ -57,6 +57,8 @@ energy is a measure of the ability of something to cause a change in the world a
 | velocity                       | $v$    | $(ms^{-1})$ |
 | spring constant                | $k$    | $(Nm^{-1})$ |
 | displacement                   | $x$    | $(m)$       |
+| gravitational field strength   | $g$    | $(ms^{-2})$ |
+| height above surface           | $h$    | $(m)$       |
 
 $$E_k=\frac{1}{2}mv^2$$
 $$E_s=\frac{1}{2}kx^2$$
@@ -79,7 +81,7 @@ $$\sum{E_\text{initial}}=\sum{E_\text{final}}$$
 
 frame of reference is a set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements
 
-an inertial frame of reference is a frame of reference that is not accelerating
+an inertial frame of reference is a reference frame that is not accelerating
 
 ### lorentz factor
 
