@@ -114,14 +114,22 @@
 <li class="chapter" data-level="1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html"><i class="fa fa-check"></i><b>1</b> functions and graphs</a><ul>
 <li class="chapter" data-level="1.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#modulus-function"><i class="fa fa-check"></i><b>1.1</b> modulus function</a></li>
 <li class="chapter" data-level="1.2" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#conic-sections"><i class="fa fa-check"></i><b>1.2</b> conic sections</a><ul>
-<li class="chapter" data-level="1.2.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#circle"><i class="fa fa-check"></i><b>1.2.1</b> circle</a></li>
+<li class="chapter" data-level="1.2.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#circles"><i class="fa fa-check"></i><b>1.2.1</b> circles</a></li>
 <li class="chapter" data-level="1.2.2" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#ellipses"><i class="fa fa-check"></i><b>1.2.2</b> ellipses</a></li>
 <li class="chapter" data-level="1.2.3" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#hyperbolas"><i class="fa fa-check"></i><b>1.2.3</b> hyperbolas</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#inverse-circular-functions"><i class="fa fa-check"></i><b>1.3</b> inverse circular functions</a></li>
 <li class="chapter" data-level="1.4" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#parametric-equations"><i class="fa fa-check"></i><b>1.4</b> parametric equations</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2</b> vectors</a></li>
+<li class="chapter" data-level="2" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2</b> vectors</a><ul>
+<li class="chapter" data-level="2.1" data-path="vectors.html"><a href="vectors.html#magnitude-and-unit-vectors"><i class="fa fa-check"></i><b>2.1</b> magnitude and unit vectors</a></li>
+<li class="chapter" data-level="2.2" data-path="vectors.html"><a href="vectors.html#addition-and-subtraction"><i class="fa fa-check"></i><b>2.2</b> addition and subtraction</a></li>
+<li class="chapter" data-level="2.3" data-path="vectors.html"><a href="vectors.html#the-zero-vector"><i class="fa fa-check"></i><b>2.3</b> the zero vector</a></li>
+<li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html#parallel-vectors"><i class="fa fa-check"></i><b>2.4</b> parallel vectors</a></li>
+<li class="chapter" data-level="2.5" data-path="vectors.html"><a href="vectors.html#linear-dependence"><i class="fa fa-check"></i><b>2.5</b> linear dependence</a></li>
+<li class="chapter" data-level="2.6" data-path="vectors.html"><a href="vectors.html#dot-product"><i class="fa fa-check"></i><b>2.6</b> dot product</a></li>
+<li class="chapter" data-level="2.7" data-path="vectors.html"><a href="vectors.html#vector-resolutes"><i class="fa fa-check"></i><b>2.7</b> vector resolutes</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="complex-numbers.html"><a href="complex-numbers.html"><i class="fa fa-check"></i><b>3</b> complex numbers</a></li>
 <li class="chapter" data-level="4" data-path="calculus.html"><a href="calculus.html"><i class="fa fa-check"></i><b>4</b> calculus</a><ul>
 <li class="chapter" data-level="4.0.1" data-path="calculus.html"><a href="calculus.html#eulers-method"><i class="fa fa-check"></i><b>4.0.1</b> euler’s method</a></li>
@@ -145,7 +153,52 @@
             <section class="normal" id="section-">
 <div id="vectors" class="section level1">
 <h1><span class="header-section-number">2</span> vectors</h1>
+<p>a vector can be expressed as <span class="math inline">\(\vec{AB}\)</span> or <span class="math inline">\(\tilde{u}\)</span></p>
+<p><span class="math display">\[\tilde{u}=u_1\tilde{i}+u_2\tilde{j}+u_3\tilde{k}\]</span></p>
+<div id="magnitude-and-unit-vectors" class="section level2">
+<h2><span class="header-section-number">2.1</span> magnitude and unit vectors</h2>
+<p>the magnitude of a vector <span class="math inline">\(|\tilde{u}|\)</span> is the distance of that vector <span class="math inline">\(\tilde{u}\)</span></p>
+<p><span class="math display">\[|\tilde{u}|=\sqrt{u_1^2+u_2^2+u_3^2}\]</span></p>
+<p>a unit vector <span class="math inline">\(\hat{u}\)</span> is any vector with magnitude 1</p>
+<p><span class="math display">\[\hat{u}=\frac{\tilde{u}}{|\tilde{u}|}\]</span></p>
+</div>
+<div id="addition-and-subtraction" class="section level2">
+<h2><span class="header-section-number">2.2</span> addition and subtraction</h2>
+<p><span class="math display">\[\tilde{u}+\tilde{v}=(u_1+v_1)\tilde{i}+(u_2+v_2)\tilde{j}+(u_3+v_3)\tilde{k}\]</span></p>
+<p><span class="math display">\[\tilde{u}-\tilde{v}=(u_1-v_1)\tilde{i}+(u_2-v_2)\tilde{j}+(u_3-v_3)\tilde{k}\]</span></p>
+</div>
+<div id="the-zero-vector" class="section level2">
+<h2><span class="header-section-number">2.3</span> the zero vector</h2>
+<p>the zero vector <span class="math inline">\(\tilde{0}\)</span> has magnitude <span class="math inline">\(0\)</span> and have no particular direction</p>
+<p><span class="math display">\[\tilde{0}=0\tilde{i}+0\tilde{j}+0\tilde{k}\]</span></p>
+<p>note that <span class="math inline">\(\tilde{u}-\tilde{u}\neq{}0\)</span>, but rather <span class="math inline">\(\tilde{u}-\tilde{u}=\tilde{0}\)</span></p>
+</div>
+<div id="parallel-vectors" class="section level2">
+<h2><span class="header-section-number">2.4</span> parallel vectors</h2>
+<p>two vectors <span class="math inline">\(\tilde{u}\)</span> and <span class="math inline">\(\tilde{v}\)</span> are parallel if <span class="math inline">\(\tilde{u}\)</span> is a scalar multiple of <span class="math inline">\(\tilde{v}\)</span></p>
+<p><span class="math display">\[\tilde{u}=k\tilde{v},k\in{R}\]</span></p>
+</div>
+<div id="linear-dependence" class="section level2">
+<h2><span class="header-section-number">2.5</span> linear dependence</h2>
+<p>a set of vectors is linearly dependent if one can be expressed as a linear combination of the others</p>
+<p><span class="math display">\[\tilde{u}=p\tilde{v}+q\tilde{w}\]</span></p>
+<p>a set of vectors is linearly independent if its not linearly dependent</p>
+</div>
+<div id="dot-product" class="section level2">
+<h2><span class="header-section-number">2.6</span> dot product</h2>
+<p>the dot product always return a real number which is the amount of space covered by the two vector</p>
+<p><span class="math display">\[\tilde{u}\cdot{}\tilde{v}=|\tilde{u}||\tilde{v}|\cos(\theta)\]</span> <span class="math display">\[\tilde{u}\cdot\tilde{v}=u_1v_1+u_2v_2+u_3v_3\]</span></p>
+<ul>
+<li>if <span class="math inline">\(\tilde{u}\cdot\tilde{v}=|\tilde{u}||\tilde{v}|\)</span> then <span class="math inline">\(\tilde{u}\)</span> and <span class="math inline">\(\tilde{v}\)</span> is parallel</li>
+<li>if <span class="math inline">\(\tilde{u}\cdot\tilde{v}=0\)</span> and <span class="math inline">\(\tilde{u},\tilde{v}\neq\tilde{0}\)</span> then <span class="math inline">\(\tilde{u}\)</span> and <span class="math inline">\(\tilde{v}\)</span> is perpendicular</li>
+</ul>
+</div>
+<div id="vector-resolutes" class="section level2">
+<h2><span class="header-section-number">2.7</span> vector resolutes</h2>
+<p>the scalar resolute of <span class="math inline">\(\tilde{u}\)</span> in the direction of <span class="math inline">\(\tilde{v}\)</span> is given by <span class="math inline">\(\tilde{u}\cdot\hat{v}\)</span> <span class="math display">\[\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}\]</span></p>
+<p>the vector resolute of <span class="math inline">\(\tilde{u}\)</span> in the direction of <span class="math inline">\(\tilde{v}\)</span> is given by <span class="math inline">\((\tilde{u}\cdot\hat{v})\hat{v}\)</span> <span class="math display">\[\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}\tilde{v}\]</span></p>
 
+</div>
 </div>
 <script>
   let home = document.createElement('a');

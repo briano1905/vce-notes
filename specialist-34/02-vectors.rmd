@@ -1,1 +1,61 @@
 # vectors
+
+a vector can be expressed as $\vec{AB}$ or $\tilde{u}$
+
+$$\tilde{u}=u_1\tilde{i}+u_2\tilde{j}+u_3\tilde{k}$$
+
+## magnitude and unit vectors
+
+the magnitude of a vector $|\tilde{u}|$ is the distance of that vector $\tilde{u}$
+
+$$|\tilde{u}|=\sqrt{u_1^2+u_2^2+u_3^2}$$
+
+a unit vector $\hat{u}$ is any vector with magnitude 1
+
+$$\hat{u}=\frac{\tilde{u}}{|\tilde{u}|}$$
+
+## addition and subtraction
+
+$$\tilde{u}+\tilde{v}=(u_1+v_1)\tilde{i}+(u_2+v_2)\tilde{j}+(u_3+v_3)\tilde{k}$$
+
+$$\tilde{u}-\tilde{v}=(u_1-v_1)\tilde{i}+(u_2-v_2)\tilde{j}+(u_3-v_3)\tilde{k}$$
+
+## the zero vector
+
+the zero vector $\tilde{0}$ has magnitude $0$ and have no particular direction
+
+$$\tilde{0}=0\tilde{i}+0\tilde{j}+0\tilde{k}$$
+
+note that $\tilde{u}-\tilde{u}\neq{}0$, but rather $\tilde{u}-\tilde{u}=\tilde{0}$
+
+## parallel vectors
+
+two vectors $\tilde{u}$ and $\tilde{v}$ are parallel if $\tilde{u}$ is a scalar multiple of $\tilde{v}$
+
+$$\tilde{u}=k\tilde{v},k\in{R}$$
+
+## linear dependence
+
+a set of vectors is linearly dependent if one can be expressed as a linear combination of the others
+
+$$\tilde{u}=p\tilde{v}+q\tilde{w}$$
+
+a set of vectors is linearly independent if its not linearly dependent
+
+## dot product
+
+the dot product always return a real number which is the amount of space covered by the two vector
+
+$$\tilde{u}\cdot{}\tilde{v}=|\tilde{u}||\tilde{v}|\cos(\theta)$$
+$$\tilde{u}\cdot\tilde{v}=u_1v_1+u_2v_2+u_3v_3$$
+
+- if $\tilde{u}\cdot\tilde{v}=|\tilde{u}||\tilde{v}|$ then $\tilde{u}$ and $\tilde{v}$ is parallel
+- if $\tilde{u}\cdot\tilde{v}=0$ and $\tilde{u},\tilde{v}\neq\tilde{0}$ then $\tilde{u}$ and $\tilde{v}$ is perpendicular
+
+## vector resolutes
+
+the scalar resolute of $\tilde{u}$ in the direction of $\tilde{v}$ is given by $\tilde{u}\cdot\hat{v}$
+$$\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}$$
+
+the vector resolute of $\tilde{u}$ in the direction of $\tilde{v}$ is given by $(\tilde{u}\cdot\hat{v})\hat{v}$
+$$\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}\tilde{v}$$

@@ -15,7 +15,7 @@ desmos("f(x)=x^2-4$\\sqrt{f(x)^2}")
 
 ## conic sections
 
-### circle
+### circles
 
 $$(x-h)^2+(y-k)^2=r^2$$
 
@@ -43,7 +43,7 @@ $$-(\frac{x-h}{a})^2+(\frac{y-k}{b})^2=1$$
 asymptotes: $y=\pm\frac{b}{a}(x-h)+k$
 
 ```{r echo=FALSE}
-desmos("((x-h)/a)^2-((y-k)/b)^2=1$h=0$k=1$a=4$b=2")
+desmos("((x-h)/a)^2-((y-k)/b)^2=1$-((x-h)/a)^2+((y-k)/b)^2=1$h=0$k=1$a=4$b=2")
 ```
 
 ## inverse circular functions
