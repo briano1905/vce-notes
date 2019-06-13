@@ -1,7 +1,70 @@
 # functions and graphs
 
+## modulus function
+
+$$|f(x)|=\begin{cases} 
+  -f(x) & ,f(x)\lt{}0 \\
+  f(x) & ,f(x)\geq{}0 
+\end{cases}$$
+
+it can also be represented as $|x|=\sqrt{x^2}$
+
+```{r echo=FALSE}
+desmos("f(x)=x^2-4$\\sqrt{f(x)^2}")
+```
+
+## conic sections
+
+### circle
+
+$$(x-h)^2+(y-k)^2=r^2$$
+
+circle with center $(h,k)$ and radius $r$
+
+```{r echo=FALSE}
+desmos("(x-h)^2+(y-k)^2=l^2$h=-2$k=-1$l=4")
+```
+
+### ellipses
+
+$$(\frac{x-h}{a})^2+(\frac{y-k}{b})^2=1$$
+
+ellipse with center $(h,k)$, width $2a$ and height $2b$
+
+```{r echo=FALSE}
+desmos("((x-h)/a)^2+((y-k)/b)^2=1$h=2$k=2$a=4$b=2")
+```
+
+### hyperbolas
+
+$$(\frac{x-h}{a})^2-(\frac{y-k}{b})^2=1$$
+$$-(\frac{x-h}{a})^2+(\frac{y-k}{b})^2=1$$
+
+asymptotes: $y=\pm\frac{b}{a}(x-h)+k$
+
+```{r echo=FALSE}
+desmos("((x-h)/a)^2-((y-k)/b)^2=1$h=0$k=1$a=4$b=2")
+```
+
 ## inverse circular functions
+
+| function     | domain             | range                            |
+| ------------ | ------------------ | -------------------------------- |
+| $\arcsin(x)$ | $[0,1]$            | $[-\frac{\pi}{2},\frac{\pi}{2}]$ |
+| $\arccos(x)$ | $[0,1]$            | $[0,\pi]$                        |
+| $\arctan(x)$ | $[-\infty,\infty]$ | $[-\frac{\pi}{2},\frac{\pi}{2}]$ |
 
 ```{r echo=FALSE}
 desmos("f(x)=\\arcsin(x)$g(x)=\\arccos(x)$h(x)=\\arctan(x)")
+```
+
+## parametric equations
+
+$$x=f(t)$$
+$$y=g(t)$$
+
+use simultaneous equation to solve parametric equations
+
+```{r echo=FALSE}
+desmos("x=8\\cos(t)$y=8\\sin(t)$(8\\cos(t),8\\sin(t))$t=0")
 ```

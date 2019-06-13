@@ -112,7 +112,14 @@
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>specialist 3/4</a></li>
 <li class="chapter" data-level="1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html"><i class="fa fa-check"></i><b>1</b> functions and graphs</a><ul>
-<li class="chapter" data-level="1.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#inverse-circular-functions"><i class="fa fa-check"></i><b>1.1</b> inverse circular functions</a></li>
+<li class="chapter" data-level="1.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#modulus-function"><i class="fa fa-check"></i><b>1.1</b> modulus function</a></li>
+<li class="chapter" data-level="1.2" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#conic-sections"><i class="fa fa-check"></i><b>1.2</b> conic sections</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#circle"><i class="fa fa-check"></i><b>1.2.1</b> circle</a></li>
+<li class="chapter" data-level="1.2.2" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#ellipses"><i class="fa fa-check"></i><b>1.2.2</b> ellipses</a></li>
+<li class="chapter" data-level="1.2.3" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#hyperbolas"><i class="fa fa-check"></i><b>1.2.3</b> hyperbolas</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#inverse-circular-functions"><i class="fa fa-check"></i><b>1.3</b> inverse circular functions</a></li>
+<li class="chapter" data-level="1.4" data-path="functions-and-graphs.html"><a href="functions-and-graphs.html#parametric-equations"><i class="fa fa-check"></i><b>1.4</b> parametric equations</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2</b> vectors</a></li>
 <li class="chapter" data-level="3" data-path="complex-numbers.html"><a href="complex-numbers.html"><i class="fa fa-check"></i><b>3</b> complex numbers</a></li>
@@ -138,9 +145,71 @@
             <section class="normal" id="section-">
 <div id="functions-and-graphs" class="section level1">
 <h1><span class="header-section-number">1</span> functions and graphs</h1>
+<div id="modulus-function" class="section level2">
+<h2><span class="header-section-number">1.1</span> modulus function</h2>
+<p><span class="math display">\[|f(x)|=\begin{cases} 
+  -f(x) &amp; ,f(x)\lt{}0 \\
+  f(x) &amp; ,f(x)\geq{}0 
+\end{cases}\]</span></p>
+<p>it can also be represented as <span class="math inline">\(|x|=\sqrt{x^2}\)</span></p>
+<div class="desmos" latex="f(x)=x^2-4$\sqrt{f(x)^2}"></div>
+</div>
+<div id="conic-sections" class="section level2">
+<h2><span class="header-section-number">1.2</span> conic sections</h2>
+<div id="circle" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> circle</h3>
+<p><span class="math display">\[(x-h)^2+(y-k)^2=r^2\]</span></p>
+<p>circle with center <span class="math inline">\((h,k)\)</span> and radius <span class="math inline">\(r\)</span></p>
+<div class="desmos" latex="(x-h)^2+(y-k)^2=l^2$h=-2$k=-1$l=4"></div>
+</div>
+<div id="ellipses" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> ellipses</h3>
+<p><span class="math display">\[(\frac{x-h}{a})^2+(\frac{y-k}{b})^2=1\]</span></p>
+<p>ellipse with center <span class="math inline">\((h,k)\)</span>, width <span class="math inline">\(2a\)</span> and height <span class="math inline">\(2b\)</span></p>
+<div class="desmos" latex="((x-h)/a)^2+((y-k)/b)^2=1$h=2$k=2$a=4$b=2"></div>
+</div>
+<div id="hyperbolas" class="section level3">
+<h3><span class="header-section-number">1.2.3</span> hyperbolas</h3>
+<p><span class="math display">\[(\frac{x-h}{a})^2-(\frac{y-k}{b})^2=1\]</span> <span class="math display">\[-(\frac{x-h}{a})^2+(\frac{y-k}{b})^2=1\]</span></p>
+<p>asymptotes: <span class="math inline">\(y=\pm\frac{b}{a}(x-h)+k\)</span></p>
+<div class="desmos" latex="((x-h)/a)^2-((y-k)/b)^2=1$h=0$k=1$a=4$b=2"></div>
+</div>
+</div>
 <div id="inverse-circular-functions" class="section level2">
-<h2><span class="header-section-number">1.1</span> inverse circular functions</h2>
+<h2><span class="header-section-number">1.3</span> inverse circular functions</h2>
+<table>
+<thead>
+<tr class="header">
+<th>function</th>
+<th>domain</th>
+<th>range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\arcsin(x)\)</span></td>
+<td><span class="math inline">\([0,1]\)</span></td>
+<td><span class="math inline">\([-\frac{\pi}{2},\frac{\pi}{2}]\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\arccos(x)\)</span></td>
+<td><span class="math inline">\([0,1]\)</span></td>
+<td><span class="math inline">\([0,\pi]\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\arctan(x)\)</span></td>
+<td><span class="math inline">\([-\infty,\infty]\)</span></td>
+<td><span class="math inline">\([-\frac{\pi}{2},\frac{\pi}{2}]\)</span></td>
+</tr>
+</tbody>
+</table>
 <div class="desmos" latex="f(x)=\arcsin(x)$g(x)=\arccos(x)$h(x)=\arctan(x)"></div>
+</div>
+<div id="parametric-equations" class="section level2">
+<h2><span class="header-section-number">1.4</span> parametric equations</h2>
+<p><span class="math display">\[x=f(t)\]</span> <span class="math display">\[y=g(t)\]</span></p>
+<p>use simultaneous equation to solve parametric equations</p>
+<div class="desmos" latex="x=8\cos(t)$y=8\sin(t)$(8\cos(t),8\sin(t))$t=0"></div>
 
 </div>
 </div>
