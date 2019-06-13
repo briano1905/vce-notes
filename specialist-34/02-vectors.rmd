@@ -59,3 +59,23 @@ $$\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}$$
 
 the vector resolute of $\tilde{u}$ in the direction of $\tilde{v}$ is given by $(\tilde{u}\cdot\hat{v})\hat{v}$
 $$\text{or...}\quad\frac{\tilde{u}\cdot\tilde{v}}{|\tilde{v}|}\tilde{v}$$
+
+## geometric proofs
+
+### triangles
+
+- equilateral triangles have equal length sides and equal angles of $60^\circ$ at each vertex. it is sufficient to show only one of these properties
+
+- isosceles triangles have only two sides that are equal in length and two angles that are equal. it is sufficient to show only one of these properties
+
+### quadrilaterals
+
+- squares have equal angles of $90^\circ$ at each vertex and equal side lengths. a sufficient proof requires showing that both of these properties are true
+
+- rectangles have equal angles of $90^\circ$ at each vertex. a sufficient proof requires showing that both pairs of opposite sides are parallet and the there is one $90^\circ$ angle
+
+- rhombuses have two pairs of opposite parallel sides, with all sides equal in length. a sufficient proof requires showing that both of these properties are true
+
+- parallelograms have two pairs of opposite parallel sides. a sufficient proof requires showing that a single pair of opposite sides is parallel and equal in length; the vectors representing two opposite sider are equal
+
+- trapeziums have one pair of parallel sides. a sufficient proof requires showing that a single pair of opposite sides is parallel
