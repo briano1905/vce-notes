@@ -87,6 +87,7 @@ an inertial frame of reference is a reference frame that is not accelerating
 
 $$\gamma{}=\frac{1}{\sqrt{1-(\frac{v}{c})^2}}$$
 $$v=c\sqrt{1-(\frac{1}{\gamma})^2}$$
+as the velocity $v$ approaches the speed of light $c$, the lorentz factor $\gamma$ approaches $\infty$
 
 ```{r echo=FALSE}
 desmos("y=\\frac{1}{\\sqrt{1-(\\frac{x}{c})^2}}$c=3")
